@@ -1,0 +1,413 @@
+{
+  "MCP_URL": "https://mcp.dyslexiasteps.com/mcp",
+  "MCP_NPM": "dyslexiasteps-mcp",
+  "MCP_CLIENTS": [
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "summary": "Add the hosted URL with one command. A local install works too.",
+      "steps": [
+        "Run the command in a terminal. `--scope user` makes the server available in all your projects; without it the server only applies to the current project.",
+        "`claude mcp list` should show the server as **Connected**. Inside Claude Code, `/mcp` shows the same status.",
+        "To share the server with a team, use `--scope project`: the command writes a `.mcp.json` file in the project root that you can commit."
+      ],
+      "code": [
+        {
+          "label": "Hosted (recommended)",
+          "code": "claude mcp add --transport http --scope user dyslexiasteps https://mcp.dyslexiasteps.com/mcp"
+        },
+        {
+          "label": "Local (npx)",
+          "code": "claude mcp add --scope user dyslexiasteps -- npx -y dyslexiasteps-mcp"
+        },
+        {
+          "label": ".mcp.json (project)",
+          "code": "{\n  \"mcpServers\": {\n    \"dyslexiasteps\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.dyslexiasteps.com/mcp\"\n    }\n  }\n}"
+        },
+        {
+          "label": "Check / remove",
+          "code": "claude mcp list\nclaude mcp get dyslexiasteps\nclaude mcp remove dyslexiasteps"
+        }
+      ],
+      "note": "The `--` separates Claude's own options from the command that starts the server. Keep it in the `npx` line.",
+      "source": {
+        "label": "Claude Code: MCP",
+        "url": "https://code.claude.com/docs/en/mcp"
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude (claude.ai and Desktop)",
+      "summary": "A remote server is added as a custom connector. It needs the hosted URL; `npx` does not work here.",
+      "steps": [
+        "**Pro and Max:** open the **+** menu in the chat box, choose **Add custom connector**, paste the URL below and press **Add**. No sign-in is needed, so leave the OAuth fields under *Advanced settings* empty.",
+        "**Team and Enterprise:** an Owner first adds the connector in the organization's Connectors settings: **Add → Custom → Web**. Members then find it in their list and press **Connect**.",
+        "Open a new chat, switch the connector on and try the check prompt further down this page."
+      ],
+      "code": [
+        {
+          "label": "Connector URL",
+          "code": "https://mcp.dyslexiasteps.com/mcp"
+        }
+      ],
+      "note": "Menu names in Claude change from time to time. If you do not see the option, search Claude's help for *custom connectors*. Anthropic warns on its own page that custom connectors can reach unverified services.",
+      "source": {
+        "label": "Claude help: custom connectors (remote MCP)",
+        "url": "https://support.claude.com/en/articles/11175166-about-custom-connectors-remote-mcp"
+      }
+    },
+    {
+      "id": "claude-desktop",
+      "name": "Claude Desktop (local)",
+      "summary": "To run the server on your own machine with `npx`, add it to Claude Desktop's config file.",
+      "steps": [
+        "From the Claude menu open **Settings → Developer → Edit Config**. The file is `~/Library/Application Support/Claude/claude_desktop_config.json` on macOS and `%APPDATA%\\Claude\\claude_desktop_config.json` on Windows.",
+        "Add the block below inside `mcpServers`. If the file already has other servers, add only the `dyslexiasteps` entry.",
+        "Quit Claude Desktop completely and reopen it. The server appears under the **+** menu in the chat box, **Connectors → Manage connectors**."
+      ],
+      "code": [
+        {
+          "label": "claude_desktop_config.json",
+          "code": "{\n  \"mcpServers\": {\n    \"dyslexiasteps\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"dyslexiasteps-mcp\"]\n    }\n  }\n}"
+        }
+      ],
+      "note": "If it does not connect, read the logs: `~/Library/Logs/Claude/mcp*.log` on macOS, `%APPDATA%\\Claude\\logs` on Windows. Node.js must be installed (`node --version`).",
+      "source": {
+        "label": "MCP: connect to local servers",
+        "url": "https://modelcontextprotocol.io/docs/develop/connect-local-servers"
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "summary": "Only a remote (hosted) server works. ChatGPT cannot start a local `npx` process.",
+      "steps": [
+        "In ChatGPT **Settings**, turn on **Developer mode**. The switch is usually under *Apps / Connectors → Advanced*, and under *Security* on some accounts.",
+        "On the connectors page press **Create**. Use `Dyslexia Steps` as the name, one sentence as the description (for example *Phonics and sight word lists by grade, with sources*) and the URL below.",
+        "Choose **No authentication**, tick the trust box and create the connector.",
+        "In a new chat, enable the connector from the tools menu."
+      ],
+      "code": [
+        {
+          "label": "Connector URL",
+          "code": "https://mcp.dyslexiasteps.com/mcp"
+        }
+      ],
+      "note": "Which plans include Developer mode, and its menu names, change on OpenAI's side. On Business and Enterprise an admin may have to allow custom connectors. None of the tools writes anything; all seven are read-only.",
+      "source": {
+        "label": "Adding a remote MCP server to ChatGPT (Auth0 guide)",
+        "url": "https://auth0.com/blog/add-remote-mcp-server-chatgpt/"
+      }
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "summary": "The Codex CLI and the IDE extension read the same `config.toml`. Use `--url` for hosted, `npx` for local.",
+      "steps": [
+        "Run one of the commands. Codex writes the configuration to `~/.codex/config.toml`.",
+        "To edit by hand, add a `[mcp_servers.dyslexiasteps]` table to that file. For a per-project setup, put the table in `.codex/config.toml` at the root of a trusted project.",
+        "Restart Codex and try the check prompt below."
+      ],
+      "code": [
+        {
+          "label": "Hosted (recommended)",
+          "code": "codex mcp add dyslexiasteps --url https://mcp.dyslexiasteps.com/mcp"
+        },
+        {
+          "label": "Local (npx)",
+          "code": "codex mcp add dyslexiasteps -- npx -y dyslexiasteps-mcp"
+        },
+        {
+          "label": "config.toml (hosted)",
+          "code": "[mcp_servers.dyslexiasteps]\nurl = \"https://mcp.dyslexiasteps.com/mcp\""
+        },
+        {
+          "label": "config.toml (local)",
+          "code": "[mcp_servers.dyslexiasteps]\ncommand = \"npx\"\nargs = [\"-y\", \"dyslexiasteps-mcp\"]"
+        }
+      ],
+      "source": {
+        "label": "Codex: MCP",
+        "url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli"
+      }
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "summary": "Add a URL or a command to `mcp.json`, for one project or for every project.",
+      "steps": [
+        "Create (or open) `~/.cursor/mcp.json` for all projects, or `.cursor/mcp.json` in a project root for that project only.",
+        "Add one of the blocks below inside `mcpServers` and save.",
+        "In Cursor's settings, open the **MCP** section and check that the server is on and its tools are listed."
+      ],
+      "code": [
+        {
+          "label": "Hosted (recommended)",
+          "code": "{\n  \"mcpServers\": {\n    \"dyslexiasteps\": {\n      \"url\": \"https://mcp.dyslexiasteps.com/mcp\"\n    }\n  }\n}"
+        },
+        {
+          "label": "Local (npx)",
+          "code": "{\n  \"mcpServers\": {\n    \"dyslexiasteps\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"dyslexiasteps-mcp\"]\n    }\n  }\n}"
+        }
+      ],
+      "source": {
+        "label": "Cursor: MCP",
+        "url": "https://cursor.com/docs/context/mcp"
+      }
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "summary": "The workspace file is `.vscode/mcp.json`. Its top-level key is `servers`, not `mcpServers`.",
+      "steps": [
+        "Create `.vscode/mcp.json` in the project root and paste one of the blocks below. The **MCP: Add Server** command in the Command Palette walks through the same setup.",
+        "Start the server with the **Start** link that appears above it in the file. The tools show up in Copilot Chat's Agent mode.",
+        "To add the local server to your user profile instead of one workspace, use the command-line form."
+      ],
+      "code": [
+        {
+          "label": "Hosted (recommended)",
+          "code": "{\n  \"servers\": {\n    \"dyslexiasteps\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.dyslexiasteps.com/mcp\"\n    }\n  }\n}"
+        },
+        {
+          "label": "Local (npx)",
+          "code": "{\n  \"servers\": {\n    \"dyslexiasteps\": {\n      \"type\": \"stdio\",\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"dyslexiasteps-mcp\"]\n    }\n  }\n}"
+        },
+        {
+          "label": "User profile (local)",
+          "code": "code --add-mcp \"{\\\"name\\\":\\\"dyslexiasteps\\\",\\\"command\\\":\\\"npx\\\",\\\"args\\\":[\\\"-y\\\",\\\"dyslexiasteps-mcp\\\"]}\""
+        }
+      ],
+      "source": {
+        "label": "VS Code: MCP servers",
+        "url": "https://code.visualstudio.com/docs/copilot/customization/mcp-servers"
+      }
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "summary": "Use `gemini mcp add` or edit `settings.json`. The key for a remote server is `httpUrl`.",
+      "steps": [
+        "Run the command. The default scope is *project*; add `-s user` to use the server everywhere (it is written to `~/.gemini/settings.json`).",
+        "If you edit the file by hand, use **`httpUrl`**, not `url`, for a remote Streamable HTTP server: `url` is for the older SSE address."
+      ],
+      "code": [
+        {
+          "label": "Hosted (recommended)",
+          "code": "gemini mcp add -s user --transport http dyslexiasteps https://mcp.dyslexiasteps.com/mcp"
+        },
+        {
+          "label": "settings.json (hosted)",
+          "code": "{\n  \"mcpServers\": {\n    \"dyslexiasteps\": {\n      \"httpUrl\": \"https://mcp.dyslexiasteps.com/mcp\"\n    }\n  }\n}"
+        },
+        {
+          "label": "settings.json (local)",
+          "code": "{\n  \"mcpServers\": {\n    \"dyslexiasteps\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"dyslexiasteps-mcp\"]\n    }\n  }\n}"
+        }
+      ],
+      "source": {
+        "label": "Gemini CLI: MCP servers",
+        "url": "https://geminicli.com/docs/tools/mcp-server/"
+      }
+    },
+    {
+      "id": "other",
+      "name": "Any other client",
+      "summary": "Any MCP client that supports Streamable HTTP works with the hosted URL. Clients that only support stdio use `npx`.",
+      "steps": [
+        "Enter the URL below in the client's remote MCP server field. There is no authentication and no header to set.",
+        "For a client that only supports local (stdio) servers, set the command to `npx` and the arguments to `-y dyslexiasteps-mcp`.",
+        "To check the connection without any client, the `curl` command below returns the tool list."
+      ],
+      "code": [
+        {
+          "label": "URL",
+          "code": "https://mcp.dyslexiasteps.com/mcp"
+        },
+        {
+          "label": "Check with curl",
+          "code": "curl -s https://mcp.dyslexiasteps.com/mcp \\\n  -H 'content-type: application/json' \\\n  -H 'accept: application/json, text/event-stream' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'"
+        }
+      ],
+      "note": "The server is stateless and accepts only `POST /mcp`, so opening the address in a browser returns 405. That is normal. `https://mcp.dyslexiasteps.com/health` answers `ok`.",
+      "source": {
+        "label": "Model Context Protocol",
+        "url": "https://modelcontextprotocol.io"
+      }
+    }
+  ],
+  "GITHUB_ORG": "https://github.com/Dyslexia-Steps",
+  "MCP_REPO": "https://github.com/Dyslexia-Steps/dyslexiasteps-mcp",
+  "DATA_REPO": "https://github.com/Dyslexia-Steps/dyslexiasteps-data",
+  "MCP_CHECK_PROMPT": "Using Dyslexia Steps, how many English word lists cover kindergarten?",
+  "MCP_CHECK_ANSWER": "23",
+  "MCP_TOOLS": [
+    {
+      "name": "list_word_lists",
+      "returns": "The available lists with id, title, language, section, grade range, the source of the grade placement and word count. Filter by language, grade or section.",
+      "prompt": "Which word lists cover first grade, and where does each grade placement come from?"
+    },
+    {
+      "name": "get_word_list",
+      "returns": "One list in full: every word, its groups (for example -at, -an, -ap families), the grade range, the placement basis, the page URL and the license.",
+      "prompt": "Show me the short a word list grouped by word family."
+    },
+    {
+      "name": "get_words_for_grade",
+      "returns": "Every different English word from the lists that cover a grade, deduplicated, with the lists each word comes from; optional section filter.",
+      "prompt": "Give me 30 digraph words suitable for a first grader."
+    },
+    {
+      "name": "find_words",
+      "returns": "Words that start with, end with or contain a pattern such as sh, ck or ight, with their list, grade range and page.",
+      "prompt": "Find words ending in ck from the kindergarten and first grade lists."
+    },
+    {
+      "name": "get_placement_basis",
+      "returns": "How grades were assigned: Dolch's own grade levels (1936, public domain), the Common Core Foundational Skills item that names the skill, or a typical sequence when no standard names it. Includes the limits.",
+      "prompt": "Why is the r-controlled vowels list placed in Grade 1?"
+    },
+    {
+      "name": "get_citation",
+      "returns": "The license (CC BY 4.0 for the compilation; the Dolch words are public domain), the citation text and the CSV and JSON download addresses.",
+      "prompt": "How do I cite these word lists and may I print them for my class?"
+    }
+  ],
+  "MCP_EXAMPLES": [
+    "Give me 20 words with sh for a first grader.",
+    "Which sight words belong to kindergarten, and how were they placed there?",
+    "I teach second grade: what vowel team words can I use, with their source?",
+    "Show me every list that has words ending in ight.",
+    "Which word lists exist in Spanish?"
+  ],
+  "NOT_DOING": [
+    "**It does not assess a child.** It returns word lists. A grade is a typical guide, not a rule, and a placement is not an assessment of any child.",
+    "**It gives no advice about a learning difficulty.** The screening test on dyslexiasteps.com is a screening, not a diagnosis; only a specialist can diagnose dyslexia.",
+    "**It writes nothing, opens no account and spends no credits.** All six tools are read-only and need no API key or sign-in.",
+    "**Other languages have no grades.** The German, Spanish, French, Dutch and Brazilian Portuguese lists follow each language's own reading curriculum, so they are not mapped to US grades."
+  ],
+  "MCP_TROUBLESHOOTING": [
+    {
+      "q": "The tools do not appear in my client.",
+      "a": "Quit the client completely and reopen it; many clients read their MCP configuration only at start-up. Then check the JSON or TOML syntax: a trailing comma or a missing quote silently drops the server. In Claude Code `claude mcp list` shows whether it is connected, in Cursor the MCP settings page does, and in VS Code the status line above the server in `.vscode/mcp.json` does."
+    },
+    {
+      "q": "`npx` is not found or will not start.",
+      "a": "A local install needs Node.js 18 or newer (`node --version`). On Windows, if `npx` is missing, install npm globally with `npm install -g npm`. With the hosted URL you do not need Node.js at all."
+    },
+    {
+      "q": "Opening the MCP address in a browser shows 405.",
+      "a": "That is expected. The server accepts only the `POST /mcp` request MCP clients send. To see that it is running, open https://mcp.dyslexiasteps.com/health (it answers `ok`) or run the `curl` command on this page."
+    },
+    {
+      "q": "ChatGPT or Claude does not show the custom connector option.",
+      "a": "Custom connectors depend on your plan and your organization's settings. In ChatGPT, Developer mode must be on, and on Business, Enterprise, Team and Edu accounts an admin has to allow connectors. Clients rename menus: search their help pages for *custom connector* to find the current path."
+    },
+    {
+      "q": "A tool returns an error.",
+      "a": "The input was invalid, for example get_word_list was given an id that does not exist. The error message points to list_word_lists, which shows the valid ids. find_words needs at least one of contains, starts_with or ends_with."
+    }
+  ],
+  "MCP_FAQ": [
+    {
+      "q": "What is the Dyslexia Steps MCP server?",
+      "a": "A free, read-only Model Context Protocol server that lets an AI assistant look up Dyslexia Steps' word lists: 38 English phonics and sight word lists placed from Pre-K to Grade 3 with the source of each placement, plus 216 lists in German, Spanish, French, Dutch and Brazilian Portuguese. The code is MIT-licensed; the word lists are CC BY 4.0."
+    },
+    {
+      "q": "Does it assess my child or tell me whether they have dyslexia?",
+      "a": "No. It only returns word lists. A grade is a typical guide, not a rule, and a placement is not an assessment of any child. The free screening test on dyslexiasteps.com is a screening, not a diagnosis; only a specialist can diagnose dyslexia."
+    },
+    {
+      "q": "Do I need an account or an API key?",
+      "a": "No. The hosted server needs no sign-up, key or credit balance, and all six tools are read-only."
+    },
+    {
+      "q": "How were the grades assigned?",
+      "a": "Each English list carries the source of its placement: Dolch's own grade levels for the sight word lists (1936, public domain), the Common Core Foundational Skills item that names the skill for phonics lists (for example RF.1.3.a for consonant digraphs), or a typical sequence when no standard names it. Programs differ, so treat grades as a guide."
+    },
+    {
+      "q": "Hosted or local: which should I use?",
+      "a": "Use the hosted URL unless you need to work offline or want to inspect the code you run. Both expose the same six tools. The hosted server needs no Node.js and works in ChatGPT and in Claude's custom connectors, which cannot launch a local npx process."
+    },
+    {
+      "q": "Which AI clients does it work with?",
+      "a": "Any client that speaks MCP: Claude (claude.ai, Desktop and Claude Code), ChatGPT through Developer mode connectors, Codex, Cursor, VS Code, Gemini CLI and others. The setup commands for each are in these docs, taken from the clients' own documentation."
+    },
+    {
+      "q": "May I print and share the word lists?",
+      "a": "Yes. The compilation is licensed CC BY 4.0: credit Dyslexia Steps and link the word lists by grade page. The Dolch words themselves are public domain. Each list page prints as a worksheet with its source line."
+    },
+    {
+      "q": "Is the code open source?",
+      "a": "Yes. The data package and the MCP server are MIT-licensed code in public repositories at github.com/Dyslexia-Steps."
+    }
+  ],
+  "DATA_FILES": [
+    {
+      "file": "word-lists.json",
+      "what": "Every list grouped: words, groups (word families), grade range, placement basis, page URL and update date, plus the grade levels, the placement bases explained, the license and the citation.",
+      "path": "/data/word-lists.json"
+    },
+    {
+      "file": "word-lists.csv",
+      "what": "One row per word: language, grade range, section, list, group, word, placement basis and source links.",
+      "path": "/data/word-lists.csv"
+    }
+  ],
+  "CSV_COLUMNS": [
+    [
+      "language",
+      "en, de, es, fr, nl, pt-br"
+    ],
+    [
+      "grade_from, grade_to",
+      "Pre-K, Kindergarten, Grade 1, Grade 2 or Grade 3 (empty for lists in other languages)"
+    ],
+    [
+      "section",
+      "cvc, families, sight, digraphs, patterns (English) or wordlist (other languages)"
+    ],
+    [
+      "list_id, list_title",
+      "Stable list id (for example short-a) and its title"
+    ],
+    [
+      "group",
+      "Word family or group inside the list, when the list has one"
+    ],
+    [
+      "word",
+      "The word"
+    ],
+    [
+      "placement_basis, placement_url",
+      "Source of the grade placement: Dolch (1936), a Common Core item or Typical sequence, with a link"
+    ],
+    [
+      "list_url",
+      "The page of the list on dyslexiasteps.com"
+    ],
+    [
+      "updated",
+      "Last update of the list (YYYY-MM-DD)"
+    ]
+  ],
+  "DATA_EXAMPLES": [
+    {
+      "label": "curl",
+      "code": "curl -s https://dyslexiasteps.com/data/word-lists.json | jq '[.lists[] | select(.language==\"en\" and .gradeFrom==\"Kindergarten\") | .title]'"
+    },
+    {
+      "label": "JavaScript (npm)",
+      "code": "import { listsForGrade, wordsForGrade, listById } from \"dyslexiasteps-data\";\n\nlistsForGrade(\"kindergarten\").map((l) => l.title);\nwordsForGrade(\"grade-1\").length;      // every different word from the lists that cover Grade 1\nlistById(\"short-a\").basis;           // \"RF.K.2.d, RF.K.3.b\""
+    },
+    {
+      "label": "Python (pandas)",
+      "code": "import pandas as pd\n\ndf = pd.read_csv(\"https://dyslexiasteps.com/data/word-lists.csv\")\ndf[(df.language == \"en\") & (df.grade_from == \"Grade 1\")].groupby(\"list_title\").word.count()"
+    },
+    {
+      "label": "R",
+      "code": "df <- read.csv(\"https://dyslexiasteps.com/data/word-lists.csv\")\nsubset(df, language == \"en\" & grade_from == \"Kindergarten\")"
+    }
+  ]
+}
