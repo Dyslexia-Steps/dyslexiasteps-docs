@@ -16,6 +16,7 @@ npm run serve     # http://localhost:4000
 - The **tool reference is generated from the published `dyslexiasteps-mcp` package**: the build starts the server, reads
   `tools/list` and calls each tool, so the docs cannot drift from the server. After releasing a new package version, bump
   the dependency here and redeploy.
+- `content/embed-catalog.json` (also served as `/embed-catalog.json`) and `content/platforms.json` are snapshots of the site's `lib/embedTargets.ts` and `content/embedGuide.ts`; regenerate them when the games or the platform guide change.
 - The MCP client setup text (`content/shared.json`) is a snapshot of the verified commands on
   [dyslexiasteps.com/mcp](https://dyslexiasteps.com/mcp). Client menus change; update both when one does.
 - Deploy: `Dockerfile` (Node build, then `server.mjs`, a dependency-free static server on port 8080). Code MIT, aggregate data CC BY 4.0.

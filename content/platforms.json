@@ -1,0 +1,62 @@
+[
+ {
+  "name": "WordPress.com",
+  "where": "Add a block (+), search “HTML”, choose Custom HTML, Edit HTML, paste, then Update.",
+  "limits": "Scripts and frames only work on a paid plan with hosting features active; the free plan removes them when you save. If code disappears, re-enter it after activating hosting.",
+  "verified": true,
+  "source": "https://wordpress.com/support/wordpress-editor/blocks/custom-html-block/"
+ },
+ {
+  "name": "Wix",
+  "where": "Add Elements → Embed Code → Embed HTML → Enter Code (or Embed a site → Enter Website Address), then Apply.",
+  "limits": "Only HTTPS addresses show once published. Set width and height to 100% so the game is not cropped.",
+  "verified": true,
+  "source": "https://support.wix.com/en/the-wix-editor/more/article/adding-html-code"
+ },
+ {
+  "name": "Squarespace",
+  "where": "Code block (set the mode to HTML), or an Embed block with a code snippet.",
+  "limits": "Code blocks need a Core, Plus or Advanced plan; Embed blocks are on all plans. Code can be hidden while you are logged in, so test in a private window.",
+  "verified": true,
+  "source": "https://support.squarespace.com/hc/en-us/articles/206543167-Using-code-blocks"
+ },
+ {
+  "name": "Google Sites",
+  "where": "Insert → Embed → Embed code, paste, Next, Insert, then Publish.",
+  "limits": "JavaScript must sit inside script tags. You only see the result after publishing; desktop editor only.",
+  "verified": true,
+  "source": "https://support.google.com/sites/answer/90569?hl=en"
+ },
+ {
+  "name": "Carrd",
+  "where": "Embed element, Type: Code, Style: Inline.",
+  "limits": "Needs Pro Standard or higher. Nothing shows in the builder; publish to see it.",
+  "verified": true,
+  "source": "https://carrd.com/docs/building/embedding-custom-code"
+ },
+ {
+  "name": "Notion",
+  "where": "Type /embed and paste the game address (the https://… link), not the code.",
+  "limits": "Notion takes an address only: no script, no pasted frame code. Some addresses fail to load there, so add a normal link to the game page as a fallback.",
+  "verified": true,
+  "source": "https://www.notion.com/help/embed-and-connect-other-apps"
+ },
+ {
+  "name": "Webflow",
+  "where": "Code Embed element inside a container; paste the code and preview.",
+  "limits": "Needs a paid site plan. Leave out html, body and head tags. Read from help-center snippets: check in your editor.",
+  "verified": false
+ },
+ {
+  "name": "Ghost",
+  "where": "HTML card in the post editor.",
+  "limits": "The editor only shows a placeholder, so check the published page. Whether scripts run is not stated in the official page: check in your editor.",
+  "verified": false
+ },
+ {
+  "name": "Shopify, Blogger, Weebly",
+  "where": "Custom HTML or Liquid sections (Shopify), an HTML/JavaScript gadget (Blogger), an Embed Code element (Weebly).",
+  "limits": "Steps and limits could not be confirmed from the official pages: check in your editor.",
+  "verified": false
+ }
+]

@@ -18,6 +18,9 @@ const mcpDir = join(dirname(require.resolve("dyslexiasteps-mcp/dist/stdio.js")),
 const dataPkg = readJson(join(dataDir, "package.json"));
 const mcpPkg = readJson(join(mcpDir, "package.json"));
 const wl = readJson(join(dataDir, "word-lists.json"));
+// Gömülebilir oyun kataloğu ve platform rehberi: sitedeki lib/embedTargets.ts ve content/embedGuide.ts'in kopyası (README'de yazıyor).
+const catalog = JSON.parse(readFileSync(new URL("./content/embed-catalog.json", import.meta.url), "utf8"));
+const platforms = JSON.parse(readFileSync(new URL("./content/platforms.json", import.meta.url), "utf8"));
 
 const UPDATED = "2026-10-18";
 const URL_MCP = S.MCP_URL;
@@ -85,6 +88,7 @@ pages.push({
     { t: "table", head: ["I want to…", "Go to"], rows: [
       ["Let an AI assistant look up word lists for a class", "[MCP server](/mcp)"],
       ["Download the lists as CSV or JSON, or use them in code", "[Word lists dataset](/data)"],
+      ["Put a free reading game on my website", "[Embed the games](/embed)"],
       ["Try it in two minutes", "[Quickstart](/quickstart)"],
       ["See the lists as pages you can print", `[Word lists by grade](${MAIN}/word-lists-by-grade)`],
     ] },
@@ -92,6 +96,7 @@ pages.push({
     { t: "table", head: ["Package", "Version", "What it is", "Source"], rows: [
       ["`dyslexiasteps-mcp`", mcpPkg.version, "Read-only MCP server: six tools, stdio and hosted HTTP", `[GitHub](${S.MCP_REPO})`],
       ["`dyslexiasteps-data`", dataPkg.version, "The word lists as JSON and CSV with small helpers", `[GitHub](${S.DATA_REPO})`],
+      ["`dyslexiasteps-embed`", "0.1.0", "The free reading games as a web component and React wrapper", `[GitHub](${S.GITHUB_ORG}/dyslexiasteps-embed)`],
     ] },
     { t: "h2", text: "What the lists are, and are not" },
     { t: "p", text: `The English lists are phonics and sight word lists (CVC words, word families, digraphs, vowel teams, Dolch sight words and more). Each is placed at the grade where a Common Core Foundational Skills item or Dolch's classic list first expects it, and says which. Another ${other.length} lists in ${new Set(other.map((l) => l.language)).size} languages (German, Spanish, French, Dutch, Brazilian Portuguese) follow each language's own reading curriculum and have no grade.` },
@@ -120,6 +125,9 @@ pages.push({
     { t: "h2", text: "4. Use the data directly" },
     code("JavaScript", `npm install dyslexiasteps-data\n\nimport { wordsForGrade } from "dyslexiasteps-data";\nwordsForGrade("kindergarten").length;`),
     { t: "p", text: "Files, columns and examples in Python and R are on the [dataset page](/data)." },
+    { t: "h2", text: "5. Put a game on a page" },
+    code("HTML", `<div data-dys-game="listen" data-list="short-a"></div>\n<script async src="${MAIN}/embed.js"></script>`),
+    { t: "p", text: "Options, languages, platform steps and the credit-line terms are on the [embed page](/embed)." },
   ],
 });
 
@@ -200,6 +208,59 @@ pages.push({
     { t: "p", text: "The lists are for teaching and practice. They are not an assessment of any child and a placement is not a rule: programs and standards differ. The lists in other languages are written for each language's reading curriculum and are not translations of the English lists." },
     { t: "h2", text: "Versions" },
     { t: "p", text: `The files change when lists change or a placement is revised. The npm package version follows, so a pinned dependency never shifts under you. Current package version: \`${dataPkg.version}\`. Data last updated ${wl.updated}.` },
+  ],
+});
+
+
+const gameCounts = Object.fromEntries(Object.entries(catalog.games).map(([g, byLoc]) => [g, Object.values(byLoc).flat().length]));
+const gameLangs = Object.fromEntries(Object.entries(catalog.games).map(([g, byLoc]) => [g, Object.keys(byLoc).join(", ")]));
+pages.push({
+  path: "/embed", label: "Embed the reading games", title: "Embed Free Reading Games on Your Website: Script, Web Component and React",
+  description: "Add free reading games to a school, tutoring or parenting site: script tag, web component or React; options, catalog, platform steps, credit link and privacy.",
+  h1: "Embed the reading games",
+  lede: `Free reading games for your own site: ${catalog.total} ready-to-embed games across ${catalog.lists} word lists in six languages. The embedded game page loads no analytics and sets no cookies. Three ways to add one: a script tag, a web component or a React component.`,
+  blocks: [
+    { t: "p", text: `A code builder with a live sample page is on [dyslexiasteps.com/embed](${MAIN}/embed): pick a game and see the result before you paste anything.` },
+    { t: "h2", text: "Script tag" },
+    code("HTML", `<div data-dys-game="listen" data-list="short-a"></div>\n<script async src="${MAIN}/embed.js"></script>`),
+    { t: "p", text: "The script builds the iframe, keeps its height equal to its content and writes a visible credit line under the game into your page." },
+    { t: "h2", text: "npm: web component" },
+    code("Install", "npm install dyslexiasteps-embed"),
+    code("Use", `<script type="module">import "dyslexiasteps-embed";</script>\n<dyslexiasteps-game game="listen" list="short-a" lang="en" size="standard"></dyslexiasteps-game>`),
+    { t: "h2", text: "npm: React" },
+    code("React", `import { Game } from "dyslexiasteps-embed/react";\n\n<Game game="build" list="short-a" size="wide" />\n<Game game="choice" lang="es" list="vaya-o-valla" />`),
+    { t: "p", text: "The wrapper registers the web component on the client only, so it is safe in server-rendered apps." },
+    { t: "h2", text: "Plain iframe" },
+    { t: "p", text: "For pages that block scripts. Add the credit line yourself." },
+    code("HTML", `<iframe src="${MAIN}/embed/en/listen/short-a" title="Reading game by Dyslexia Steps" width="480" height="560" style="border:0;width:100%;max-width:480px" loading="lazy"></iframe>\n<p style="text-align:center;font:12px system-ui,sans-serif">Free reading games by <a href="${MAIN}/" target="_blank" rel="noopener">Dyslexia Steps</a></p>`),
+    { t: "h2", text: "Options" },
+    { t: "table", head: ["Script", "Component / React", "Values"], rows: [
+      ["`data-dys-game`", "`game`", "`listen`, `build`, `choice`, `dictation`"],
+      ["`data-list`", "`list`", "An id such as `short-a` (English) or the list page name such as `palabras-con-m` (other languages)"],
+      ["`data-lang`", "`lang`", "`en` (default), `de`, `es`, `fr`, `nl`, `pt-br`"],
+      ["`data-size`", "`size`", "`compact` (360 px), `standard` (480 px, default), `wide` (720 px)"],
+    ] },
+    { t: "h2", text: "Games and languages" },
+    { t: "table", head: ["Game", "What the child does", "Languages", "Ready to embed"], rows: [
+      ["`listen`", "Hears a word and taps the matching one out of four", gameLangs.listen, String(gameCounts.listen)],
+      ["`build`", "Hears a word and builds it from letter or syllable tiles", gameLangs.build, String(gameCounts.build)],
+      ["`choice`", "Fills a gap in a sentence with the right sound-alike word", gameLangs.choice, String(gameCounts.choice)],
+      ["`dictation`", "Listens, writes and checks word by word", gameLangs.dictation, String(gameCounts.dictation)],
+    ] },
+    { t: "p", text: `Not every list has every game. The full catalog, with list ids and page addresses, is machine-readable: [embed-catalog.json](${BASE}/embed-catalog.json).` },
+    { t: "h2", text: "Add it on your platform" },
+    { t: "p", text: "Steps taken from each platform's own help pages (read 18 October 2026). Menus and plan limits change; if a platform removes scripts, use the plain iframe and add the credit line by hand." },
+    { t: "table", head: ["Platform", "Where to paste", "Good to know"], rows: platforms.map((p) => [p.source ? `[${p.name}](${p.source})` : p.name, p.where, p.limits + (p.verified ? "" : " (Not fully confirmed from the official page.)")]) },
+    { t: "h2", text: "Height" },
+    { t: "p", text: "The game posts its content height to the parent window and the iframe follows. The script and the web component handle it; with a plain iframe you can listen yourself." },
+    code("JavaScript", `window.addEventListener("message", (e) => {\n  if (e.origin !== "${MAIN}") return;\n  const m = e.data;\n  if (m && m.source === "dys-embed" && m.type === "resize") {\n    iframe.style.height = Math.ceil(m.height) + "px";\n  }\n});`),
+    { t: "h2", text: "The credit link" },
+    { t: "p", text: "The script and the component write one small line under the game into your page: “Free reading games by Dyslexia Steps”, linking to the Dyslexia Steps home page. We ask that it stays visible. A link inside the frame would belong to the game's own document, which is why the line is written into your page." },
+    { t: "h2", text: "Privacy" },
+    { t: "p", text: "The embedded game page loads no analytics and sets no cookies, and has no sign-up or account. Audio files load from dyslexiasteps.com like any embedded file, so ordinary server request logs exist. The credit link on your page is only a link." },
+    { t: "h2", text: "Terms" },
+    { t: "ul", items: ["Free to use on any website, including schools, tutoring businesses and commercial sites.", "Keep the credit line under the game visible. Do not hide it or restyle it to invisibility.", "Do not change the game or present it as your own. The games are practice with word lists: not a test, and not an assessment of any child."] },
+    { t: "p", text: `Source: [dyslexiasteps-embed](${S.GITHUB_ORG}/dyslexiasteps-embed).` },
   ],
 });
 

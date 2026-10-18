@@ -1,0 +1,2810 @@
+{
+ "generatedFrom": "dyslexiasteps.com lib/embedTargets.ts",
+ "updated": "2026-10-18",
+ "total": 550,
+ "lists": 277,
+ "games": {
+  "listen": {
+   "en": [
+    {
+     "list": "short-a",
+     "title": "Short a words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-a"
+    },
+    {
+     "list": "short-e",
+     "title": "Short e words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-e"
+    },
+    {
+     "list": "short-i",
+     "title": "Short i words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-i"
+    },
+    {
+     "list": "short-o",
+     "title": "Short o words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-o"
+    },
+    {
+     "list": "short-u",
+     "title": "Short u words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-u"
+    },
+    {
+     "list": "at-family",
+     "title": "At family words",
+     "page": "https://dyslexiasteps.com/word-families/at"
+    },
+    {
+     "list": "an-family",
+     "title": "An family words",
+     "page": "https://dyslexiasteps.com/word-families/an"
+    },
+    {
+     "list": "ap-family",
+     "title": "Ap family words",
+     "page": "https://dyslexiasteps.com/word-families/ap"
+    },
+    {
+     "list": "ag-family",
+     "title": "Ag family words",
+     "page": "https://dyslexiasteps.com/word-families/ag"
+    },
+    {
+     "list": "ig-family",
+     "title": "Ig family words",
+     "page": "https://dyslexiasteps.com/word-families/ig"
+    },
+    {
+     "list": "in-family",
+     "title": "In family words",
+     "page": "https://dyslexiasteps.com/word-families/in"
+    },
+    {
+     "list": "it-family",
+     "title": "It family words",
+     "page": "https://dyslexiasteps.com/word-families/it"
+    },
+    {
+     "list": "ip-family",
+     "title": "Ip family words",
+     "page": "https://dyslexiasteps.com/word-families/ip"
+    },
+    {
+     "list": "op-family",
+     "title": "Op family words",
+     "page": "https://dyslexiasteps.com/word-families/op"
+    },
+    {
+     "list": "ot-family",
+     "title": "Ot family words",
+     "page": "https://dyslexiasteps.com/word-families/ot"
+    },
+    {
+     "list": "og-family",
+     "title": "Og family words",
+     "page": "https://dyslexiasteps.com/word-families/og"
+    },
+    {
+     "list": "ug-family",
+     "title": "Ug family words",
+     "page": "https://dyslexiasteps.com/word-families/ug"
+    },
+    {
+     "list": "un-family",
+     "title": "Un family words",
+     "page": "https://dyslexiasteps.com/word-families/un"
+    },
+    {
+     "list": "et-family",
+     "title": "Et family words",
+     "page": "https://dyslexiasteps.com/word-families/et"
+    },
+    {
+     "list": "en-family",
+     "title": "En family words",
+     "page": "https://dyslexiasteps.com/word-families/en"
+    },
+    {
+     "list": "pre-k",
+     "title": "Pre-k sight words",
+     "page": "https://dyslexiasteps.com/sight-words/pre-k"
+    },
+    {
+     "list": "kindergarten",
+     "title": "Kindergarten sight words",
+     "page": "https://dyslexiasteps.com/sight-words/kindergarten"
+    },
+    {
+     "list": "first-grade",
+     "title": "First grade sight words",
+     "page": "https://dyslexiasteps.com/sight-words/first-grade"
+    },
+    {
+     "list": "second-grade",
+     "title": "Second grade sight words",
+     "page": "https://dyslexiasteps.com/sight-words/second-grade"
+    },
+    {
+     "list": "third-grade",
+     "title": "Third grade sight words",
+     "page": "https://dyslexiasteps.com/sight-words/third-grade"
+    },
+    {
+     "list": "dolch-nouns",
+     "title": "Dolch nouns",
+     "page": "https://dyslexiasteps.com/sight-words/dolch-nouns"
+    },
+    {
+     "list": "sh",
+     "title": "Sh words",
+     "page": "https://dyslexiasteps.com/digraphs/sh"
+    },
+    {
+     "list": "ch",
+     "title": "Ch words",
+     "page": "https://dyslexiasteps.com/digraphs/ch"
+    },
+    {
+     "list": "th",
+     "title": "Th words",
+     "page": "https://dyslexiasteps.com/digraphs/th"
+    },
+    {
+     "list": "wh",
+     "title": "Wh words",
+     "page": "https://dyslexiasteps.com/digraphs/wh"
+    },
+    {
+     "list": "ck",
+     "title": "Ck words",
+     "page": "https://dyslexiasteps.com/digraphs/ck"
+    },
+    {
+     "list": "ph",
+     "title": "Ph words",
+     "page": "https://dyslexiasteps.com/digraphs/ph"
+    },
+    {
+     "list": "silent-e-words",
+     "title": "Silent e words",
+     "page": "https://dyslexiasteps.com/silent-e-words"
+    },
+    {
+     "list": "vowel-teams",
+     "title": "Vowel teams",
+     "page": "https://dyslexiasteps.com/vowel-teams"
+    },
+    {
+     "list": "r-controlled-vowels",
+     "title": "R-controlled vowels",
+     "page": "https://dyslexiasteps.com/r-controlled-vowels"
+    },
+    {
+     "list": "consonant-blends",
+     "title": "Consonant blends",
+     "page": "https://dyslexiasteps.com/consonant-blends"
+    },
+    {
+     "list": "nonsense-words",
+     "title": "Nonsense words",
+     "page": "https://dyslexiasteps.com/nonsense-words"
+    },
+    {
+     "list": "rhyming-words",
+     "title": "Rhyming words",
+     "page": "https://dyslexiasteps.com/rhyming-words"
+    }
+   ],
+   "de": [
+    {
+     "list": "woerter-mit-sch",
+     "title": "Wörter mit sch",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-sch"
+    },
+    {
+     "list": "woerter-mit-ch",
+     "title": "Wörter mit ch",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ch"
+    },
+    {
+     "list": "woerter-mit-chs",
+     "title": "Wörter mit chs",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-chs"
+    },
+    {
+     "list": "woerter-mit-ei",
+     "title": "Wörter mit ei",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ei"
+    },
+    {
+     "list": "woerter-mit-eu",
+     "title": "Wörter mit eu",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-eu"
+    },
+    {
+     "list": "woerter-mit-au",
+     "title": "Wörter mit au",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-au"
+    },
+    {
+     "list": "woerter-mit-ie",
+     "title": "Wörter mit ie",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ie"
+    },
+    {
+     "list": "woerter-mit-ck",
+     "title": "Wörter mit ck",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ck"
+    },
+    {
+     "list": "woerter-mit-tz",
+     "title": "Wörter mit tz",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-tz"
+    },
+    {
+     "list": "woerter-mit-st",
+     "title": "Wörter mit st",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-st"
+    },
+    {
+     "list": "woerter-mit-sp",
+     "title": "Wörter mit sp",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-sp"
+    },
+    {
+     "list": "woerter-mit-pf",
+     "title": "Wörter mit pf",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-pf"
+    },
+    {
+     "list": "woerter-mit-ng",
+     "title": "Wörter mit ng",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ng"
+    },
+    {
+     "list": "woerter-mit-nk",
+     "title": "Wörter mit nk",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-nk"
+    },
+    {
+     "list": "woerter-mit-qu",
+     "title": "Wörter mit qu",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-qu"
+    },
+    {
+     "list": "woerter-mit-x",
+     "title": "Wörter mit x",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-x"
+    },
+    {
+     "list": "woerter-mit-y",
+     "title": "Wörter mit y",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-y"
+    },
+    {
+     "list": "woerter-mit-v",
+     "title": "Wörter mit v",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-v"
+    },
+    {
+     "list": "woerter-mit-ae",
+     "title": "Wörter mit ä",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ae"
+    },
+    {
+     "list": "woerter-mit-oe",
+     "title": "Wörter mit ö",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-oe"
+    },
+    {
+     "list": "woerter-mit-ue",
+     "title": "Wörter mit ü",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ue"
+    },
+    {
+     "list": "woerter-mit-aeu",
+     "title": "Wörter mit äu",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-aeu"
+    },
+    {
+     "list": "lange-und-kurze-vokale",
+     "title": "Lange und kurze Vokale",
+     "page": "https://dyslexiasteps.com/de/lange-und-kurze-vokale"
+    },
+    {
+     "list": "dehnungs-h",
+     "title": "Dehnungs-h",
+     "page": "https://dyslexiasteps.com/de/dehnungs-h"
+    },
+    {
+     "list": "doppelkonsonanten",
+     "title": "Doppelkonsonanten",
+     "page": "https://dyslexiasteps.com/de/doppelkonsonanten"
+    },
+    {
+     "list": "woerter-mit-eszett",
+     "title": "Wörter mit ß",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-eszett"
+    },
+    {
+     "list": "ss-oder-eszett",
+     "title": "ss oder ß",
+     "page": "https://dyslexiasteps.com/de/ss-oder-eszett"
+    },
+    {
+     "list": "merkwoerter",
+     "title": "Merkwörter",
+     "page": "https://dyslexiasteps.com/de/merkwoerter"
+    },
+    {
+     "list": "lernwoerter",
+     "title": "Lernwörter",
+     "page": "https://dyslexiasteps.com/de/lernwoerter"
+    },
+    {
+     "list": "lautgetreue-woerter",
+     "title": "Lautgetreue Wörter",
+     "page": "https://dyslexiasteps.com/de/lautgetreue-woerter"
+    },
+    {
+     "list": "silbentrennung",
+     "title": "Silbentrennung",
+     "page": "https://dyslexiasteps.com/de/silbentrennung"
+    },
+    {
+     "list": "offene-und-geschlossene-silben",
+     "title": "Offene und geschlossene Silben",
+     "page": "https://dyslexiasteps.com/de/offene-und-geschlossene-silben"
+    },
+    {
+     "list": "silbenboegen",
+     "title": "Silbenbögen",
+     "page": "https://dyslexiasteps.com/de/silbenboegen"
+    },
+    {
+     "list": "silben-klatschen",
+     "title": "Silben klatschen",
+     "page": "https://dyslexiasteps.com/de/silben-klatschen"
+    },
+    {
+     "list": "anlauttabelle",
+     "title": "Anlauttabelle",
+     "page": "https://dyslexiasteps.com/de/anlauttabelle"
+    },
+    {
+     "list": "anlaute",
+     "title": "Anlaute",
+     "page": "https://dyslexiasteps.com/de/anlaute"
+    },
+    {
+     "list": "reimwoerter",
+     "title": "Reimwörter",
+     "page": "https://dyslexiasteps.com/de/reimwoerter"
+    },
+    {
+     "list": "diktat-klasse-1",
+     "title": "Diktat Klasse 1",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-1"
+    },
+    {
+     "list": "diktat-klasse-2",
+     "title": "Diktat Klasse 2",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-2"
+    },
+    {
+     "list": "diktat-klasse-3",
+     "title": "Diktat Klasse 3",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-3"
+    },
+    {
+     "list": "diktat-klasse-4",
+     "title": "Diktat Klasse 4",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-4"
+    },
+    {
+     "list": "laufdiktat",
+     "title": "Laufdiktat",
+     "page": "https://dyslexiasteps.com/de/laufdiktat"
+    },
+    {
+     "list": "alphabet",
+     "title": "Das Alphabet",
+     "page": "https://dyslexiasteps.com/de/alphabet"
+    }
+   ],
+   "es": [
+    {
+     "list": "vocales",
+     "title": "Palabras con vocales",
+     "page": "https://dyslexiasteps.com/es/vocales"
+    },
+    {
+     "list": "palabras-con-b",
+     "title": "Palabras con b",
+     "page": "https://dyslexiasteps.com/es/palabras-con-b"
+    },
+    {
+     "list": "palabras-con-c",
+     "title": "Palabras con c",
+     "page": "https://dyslexiasteps.com/es/palabras-con-c"
+    },
+    {
+     "list": "palabras-con-d",
+     "title": "Palabras con d",
+     "page": "https://dyslexiasteps.com/es/palabras-con-d"
+    },
+    {
+     "list": "palabras-con-f",
+     "title": "Palabras con f",
+     "page": "https://dyslexiasteps.com/es/palabras-con-f"
+    },
+    {
+     "list": "palabras-con-g",
+     "title": "Palabras con g",
+     "page": "https://dyslexiasteps.com/es/palabras-con-g"
+    },
+    {
+     "list": "palabras-con-h",
+     "title": "Palabras con h",
+     "page": "https://dyslexiasteps.com/es/palabras-con-h"
+    },
+    {
+     "list": "palabras-con-j",
+     "title": "Palabras con j",
+     "page": "https://dyslexiasteps.com/es/palabras-con-j"
+    },
+    {
+     "list": "palabras-con-k",
+     "title": "Palabras con k",
+     "page": "https://dyslexiasteps.com/es/palabras-con-k"
+    },
+    {
+     "list": "palabras-con-l",
+     "title": "Palabras con l",
+     "page": "https://dyslexiasteps.com/es/palabras-con-l"
+    },
+    {
+     "list": "palabras-con-ll",
+     "title": "Palabras con ll",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ll"
+    },
+    {
+     "list": "palabras-con-m",
+     "title": "Palabras con m",
+     "page": "https://dyslexiasteps.com/es/palabras-con-m"
+    },
+    {
+     "list": "palabras-con-n",
+     "title": "Palabras con n",
+     "page": "https://dyslexiasteps.com/es/palabras-con-n"
+    },
+    {
+     "list": "palabras-con-n-tilde",
+     "title": "Palabras con ñ",
+     "page": "https://dyslexiasteps.com/es/palabras-con-n-tilde"
+    },
+    {
+     "list": "palabras-con-p",
+     "title": "Palabras con p",
+     "page": "https://dyslexiasteps.com/es/palabras-con-p"
+    },
+    {
+     "list": "palabras-con-que-qui",
+     "title": "Palabras con que y qui",
+     "page": "https://dyslexiasteps.com/es/palabras-con-que-qui"
+    },
+    {
+     "list": "palabras-con-r",
+     "title": "Palabras con r",
+     "page": "https://dyslexiasteps.com/es/palabras-con-r"
+    },
+    {
+     "list": "palabras-con-rr",
+     "title": "Palabras con rr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-rr"
+    },
+    {
+     "list": "palabras-con-s",
+     "title": "Palabras con s",
+     "page": "https://dyslexiasteps.com/es/palabras-con-s"
+    },
+    {
+     "list": "palabras-con-t",
+     "title": "Palabras con t",
+     "page": "https://dyslexiasteps.com/es/palabras-con-t"
+    },
+    {
+     "list": "palabras-con-v",
+     "title": "Palabras con v",
+     "page": "https://dyslexiasteps.com/es/palabras-con-v"
+    },
+    {
+     "list": "palabras-con-x",
+     "title": "Palabras con x",
+     "page": "https://dyslexiasteps.com/es/palabras-con-x"
+    },
+    {
+     "list": "palabras-con-y",
+     "title": "Palabras con y",
+     "page": "https://dyslexiasteps.com/es/palabras-con-y"
+    },
+    {
+     "list": "palabras-con-z",
+     "title": "Palabras con z",
+     "page": "https://dyslexiasteps.com/es/palabras-con-z"
+    },
+    {
+     "list": "palabras-con-ch",
+     "title": "Palabras con ch",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ch"
+    },
+    {
+     "list": "palabras-con-gue-gui",
+     "title": "Palabras con gue y gui",
+     "page": "https://dyslexiasteps.com/es/palabras-con-gue-gui"
+    },
+    {
+     "list": "palabras-con-guee-guei",
+     "title": "Palabras con güe y güi",
+     "page": "https://dyslexiasteps.com/es/palabras-con-guee-guei"
+    },
+    {
+     "list": "palabras-con-ce-ci",
+     "title": "Palabras con ce y ci",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ce-ci"
+    },
+    {
+     "list": "palabras-con-ge-gi",
+     "title": "Palabras con ge y gi",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ge-gi"
+    },
+    {
+     "list": "palabras-con-mb-mp",
+     "title": "Palabras con mb y mp",
+     "page": "https://dyslexiasteps.com/es/palabras-con-mb-mp"
+    },
+    {
+     "list": "silabario",
+     "title": "Silabario",
+     "page": "https://dyslexiasteps.com/es/silabario"
+    },
+    {
+     "list": "palabras-con-bl",
+     "title": "Palabras con bl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-bl"
+    },
+    {
+     "list": "palabras-con-br",
+     "title": "Palabras con br",
+     "page": "https://dyslexiasteps.com/es/palabras-con-br"
+    },
+    {
+     "list": "palabras-con-cl",
+     "title": "Palabras con cl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-cl"
+    },
+    {
+     "list": "palabras-con-cr",
+     "title": "Palabras con cr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-cr"
+    },
+    {
+     "list": "palabras-con-dr",
+     "title": "Palabras con dr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-dr"
+    },
+    {
+     "list": "palabras-con-fl",
+     "title": "Palabras con fl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-fl"
+    },
+    {
+     "list": "palabras-con-fr",
+     "title": "Palabras con fr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-fr"
+    },
+    {
+     "list": "palabras-con-gl",
+     "title": "Palabras con gl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-gl"
+    },
+    {
+     "list": "palabras-con-gr",
+     "title": "Palabras con gr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-gr"
+    },
+    {
+     "list": "palabras-con-pl",
+     "title": "Palabras con pl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-pl"
+    },
+    {
+     "list": "palabras-con-pr",
+     "title": "Palabras con pr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-pr"
+    },
+    {
+     "list": "palabras-con-tr",
+     "title": "Palabras con tr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-tr"
+    },
+    {
+     "list": "silabas-inversas",
+     "title": "Sílabas inversas",
+     "page": "https://dyslexiasteps.com/es/silabas-inversas"
+    },
+    {
+     "list": "como-separar-en-silabas",
+     "title": "Separar en sílabas",
+     "page": "https://dyslexiasteps.com/es/como-separar-en-silabas"
+    },
+    {
+     "list": "dictado-de-palabras",
+     "title": "Dictado de palabras",
+     "page": "https://dyslexiasteps.com/es/dictado-de-palabras"
+    },
+    {
+     "list": "dictado-de-oraciones",
+     "title": "Dictado de oraciones",
+     "page": "https://dyslexiasteps.com/es/dictado-de-oraciones"
+    },
+    {
+     "list": "dictado-primer-grado",
+     "title": "Dictado 1.º",
+     "page": "https://dyslexiasteps.com/es/dictado-primer-grado"
+    },
+    {
+     "list": "dictado-segundo-grado",
+     "title": "Dictado 2.º",
+     "page": "https://dyslexiasteps.com/es/dictado-segundo-grado"
+    },
+    {
+     "list": "dictado-tercer-grado",
+     "title": "Dictado 3.º",
+     "page": "https://dyslexiasteps.com/es/dictado-tercer-grado"
+    },
+    {
+     "list": "abecedario",
+     "title": "Abecedario",
+     "page": "https://dyslexiasteps.com/es/abecedario"
+    },
+    {
+     "list": "palabras-que-riman",
+     "title": "Palabras que riman",
+     "page": "https://dyslexiasteps.com/es/palabras-que-riman"
+    }
+   ],
+   "fr": [
+    {
+     "list": "les-voyelles",
+     "title": "Les voyelles",
+     "page": "https://dyslexiasteps.com/fr/les-voyelles"
+    },
+    {
+     "list": "le-son-ou",
+     "title": "Le son ou",
+     "page": "https://dyslexiasteps.com/fr/le-son-ou"
+    },
+    {
+     "list": "le-son-on",
+     "title": "Le son on",
+     "page": "https://dyslexiasteps.com/fr/le-son-on"
+    },
+    {
+     "list": "le-son-an",
+     "title": "Le son an",
+     "page": "https://dyslexiasteps.com/fr/le-son-an"
+    },
+    {
+     "list": "le-son-in",
+     "title": "Le son in",
+     "page": "https://dyslexiasteps.com/fr/le-son-in"
+    },
+    {
+     "list": "le-son-oi",
+     "title": "Le son oi",
+     "page": "https://dyslexiasteps.com/fr/le-son-oi"
+    },
+    {
+     "list": "le-son-ai",
+     "title": "Le son è",
+     "page": "https://dyslexiasteps.com/fr/le-son-ai"
+    },
+    {
+     "list": "le-son-o",
+     "title": "Le son o",
+     "page": "https://dyslexiasteps.com/fr/le-son-o"
+    },
+    {
+     "list": "le-son-eu",
+     "title": "Le son eu",
+     "page": "https://dyslexiasteps.com/fr/le-son-eu"
+    },
+    {
+     "list": "le-son-e",
+     "title": "Le son é",
+     "page": "https://dyslexiasteps.com/fr/le-son-e"
+    },
+    {
+     "list": "le-son-ch",
+     "title": "Le son ch",
+     "page": "https://dyslexiasteps.com/fr/le-son-ch"
+    },
+    {
+     "list": "le-son-gn",
+     "title": "Le son gn",
+     "page": "https://dyslexiasteps.com/fr/le-son-gn"
+    },
+    {
+     "list": "le-son-ill",
+     "title": "Le son ill",
+     "page": "https://dyslexiasteps.com/fr/le-son-ill"
+    },
+    {
+     "list": "le-son-oin",
+     "title": "Le son oin",
+     "page": "https://dyslexiasteps.com/fr/le-son-oin"
+    },
+    {
+     "list": "le-son-s",
+     "title": "Le son s",
+     "page": "https://dyslexiasteps.com/fr/le-son-s"
+    },
+    {
+     "list": "le-son-z",
+     "title": "Le son z",
+     "page": "https://dyslexiasteps.com/fr/le-son-z"
+    },
+    {
+     "list": "le-son-k",
+     "title": "Le son k",
+     "page": "https://dyslexiasteps.com/fr/le-son-k"
+    },
+    {
+     "list": "le-son-g",
+     "title": "Le son g",
+     "page": "https://dyslexiasteps.com/fr/le-son-g"
+    },
+    {
+     "list": "le-son-j",
+     "title": "Le son j",
+     "page": "https://dyslexiasteps.com/fr/le-son-j"
+    },
+    {
+     "list": "le-son-f",
+     "title": "Le son f",
+     "page": "https://dyslexiasteps.com/fr/le-son-f"
+    },
+    {
+     "list": "compter-les-syllabes",
+     "title": "Compter les syllabes",
+     "page": "https://dyslexiasteps.com/fr/compter-les-syllabes"
+    },
+    {
+     "list": "methode-syllabique",
+     "title": "Méthode syllabique",
+     "page": "https://dyslexiasteps.com/fr/methode-syllabique"
+    },
+    {
+     "list": "syllabes-simples-et-complexes",
+     "title": "Syllabes simples et complexes",
+     "page": "https://dyslexiasteps.com/fr/syllabes-simples-et-complexes"
+    },
+    {
+     "list": "rimes-en-e",
+     "title": "Rimes en é",
+     "page": "https://dyslexiasteps.com/fr/rimes-en-e"
+    },
+    {
+     "list": "rimes-en-on",
+     "title": "Rimes en on",
+     "page": "https://dyslexiasteps.com/fr/rimes-en-on"
+    },
+    {
+     "list": "rimes-en-an",
+     "title": "Rimes en an",
+     "page": "https://dyslexiasteps.com/fr/rimes-en-an"
+    },
+    {
+     "list": "mots-invariables-ce1",
+     "title": "Mots invariables CE1",
+     "page": "https://dyslexiasteps.com/fr/mots-invariables-ce1"
+    },
+    {
+     "list": "mots-invariables-ce2",
+     "title": "Mots invariables CE2",
+     "page": "https://dyslexiasteps.com/fr/mots-invariables-ce2"
+    },
+    {
+     "list": "mots-invariables-cm1",
+     "title": "Mots invariables CM1",
+     "page": "https://dyslexiasteps.com/fr/mots-invariables-cm1"
+    },
+    {
+     "list": "dictee-cp",
+     "title": "Dictée CP",
+     "page": "https://dyslexiasteps.com/fr/dictee-cp"
+    },
+    {
+     "list": "dictee-ce1",
+     "title": "Dictée CE1",
+     "page": "https://dyslexiasteps.com/fr/dictee-ce1"
+    },
+    {
+     "list": "dictee-ce2",
+     "title": "Dictée CE2",
+     "page": "https://dyslexiasteps.com/fr/dictee-ce2"
+    },
+    {
+     "list": "dictee-cm1",
+     "title": "Dictée CM1",
+     "page": "https://dyslexiasteps.com/fr/dictee-cm1"
+    },
+    {
+     "list": "dictee-cm2",
+     "title": "Dictée CM2",
+     "page": "https://dyslexiasteps.com/fr/dictee-cm2"
+    },
+    {
+     "list": "dictee-de-mots",
+     "title": "Dictée de mots",
+     "page": "https://dyslexiasteps.com/fr/dictee-de-mots"
+    },
+    {
+     "list": "alphabet",
+     "title": "L'alphabet",
+     "page": "https://dyslexiasteps.com/fr/alphabet"
+    }
+   ],
+   "nl": [
+    {
+     "list": "klinkers",
+     "title": "Klinkers",
+     "page": "https://dyslexiasteps.com/nl/klinkers"
+    },
+    {
+     "list": "medeklinkers",
+     "title": "Medeklinkers",
+     "page": "https://dyslexiasteps.com/nl/medeklinkers"
+    },
+    {
+     "list": "lange-klanken",
+     "title": "Lange klanken",
+     "page": "https://dyslexiasteps.com/nl/lange-klanken"
+    },
+    {
+     "list": "woorden-met-oe",
+     "title": "Woorden met oe",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-oe"
+    },
+    {
+     "list": "woorden-met-ie",
+     "title": "Woorden met ie",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ie"
+    },
+    {
+     "list": "woorden-met-eu",
+     "title": "Woorden met eu",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-eu"
+    },
+    {
+     "list": "woorden-met-ui",
+     "title": "Woorden met ui",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ui"
+    },
+    {
+     "list": "woorden-met-ei",
+     "title": "Woorden met ei",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ei"
+    },
+    {
+     "list": "woorden-met-ij",
+     "title": "Woorden met ij",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ij"
+    },
+    {
+     "list": "ei-of-ij",
+     "title": "Ei of ij",
+     "page": "https://dyslexiasteps.com/nl/ei-of-ij"
+    },
+    {
+     "list": "woorden-met-au",
+     "title": "Woorden met au",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-au"
+    },
+    {
+     "list": "woorden-met-ou",
+     "title": "Woorden met ou",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ou"
+    },
+    {
+     "list": "au-of-ou",
+     "title": "Au of ou",
+     "page": "https://dyslexiasteps.com/nl/au-of-ou"
+    },
+    {
+     "list": "woorden-met-ch",
+     "title": "Woorden met ch",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ch"
+    },
+    {
+     "list": "woorden-met-sch",
+     "title": "Woorden met sch",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-sch"
+    },
+    {
+     "list": "woorden-met-ng-en-nk",
+     "title": "Woorden met ng en nk",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ng-en-nk"
+    },
+    {
+     "list": "woorden-met-eeuw-ieuw-uw",
+     "title": "Eeuw, ieuw en uw",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-eeuw-ieuw-uw"
+    },
+    {
+     "list": "mkm-woorden",
+     "title": "Mkm-woorden",
+     "page": "https://dyslexiasteps.com/nl/mkm-woorden"
+    },
+    {
+     "list": "lettergrepen",
+     "title": "Lettergrepen",
+     "page": "https://dyslexiasteps.com/nl/lettergrepen"
+    },
+    {
+     "list": "rijmwoorden",
+     "title": "Rijmwoorden",
+     "page": "https://dyslexiasteps.com/nl/rijmwoorden"
+    },
+    {
+     "list": "dictee-groep-3",
+     "title": "Dictee groep 3",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-3"
+    },
+    {
+     "list": "dictee-groep-4",
+     "title": "Dictee groep 4",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-4"
+    },
+    {
+     "list": "dictee-groep-5",
+     "title": "Dictee groep 5",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-5"
+    },
+    {
+     "list": "alfabet",
+     "title": "Alfabet",
+     "page": "https://dyslexiasteps.com/nl/alfabet"
+    }
+   ],
+   "pt-br": [
+    {
+     "list": "vogais",
+     "title": "Vogais",
+     "page": "https://dyslexiasteps.com/pt-br/vogais"
+    },
+    {
+     "list": "palavras-com-lh",
+     "title": "Palavras com lh",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-lh"
+    },
+    {
+     "list": "palavras-com-nh",
+     "title": "Palavras com nh",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-nh"
+    },
+    {
+     "list": "palavras-com-ch",
+     "title": "Palavras com ch",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-ch"
+    },
+    {
+     "list": "palavras-com-rr",
+     "title": "Palavras com rr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-rr"
+    },
+    {
+     "list": "palavras-com-ss",
+     "title": "Palavras com ss",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-ss"
+    },
+    {
+     "list": "palavras-com-c-cedilha",
+     "title": "Palavras com ç",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-c-cedilha"
+    },
+    {
+     "list": "palavras-com-gu",
+     "title": "Palavras com gu",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-gu"
+    },
+    {
+     "list": "palavras-com-qu",
+     "title": "Palavras com qu",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-qu"
+    },
+    {
+     "list": "palavras-com-ao",
+     "title": "Palavras com ão",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-ao"
+    },
+    {
+     "list": "palavras-com-x",
+     "title": "Palavras com x",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-x"
+    },
+    {
+     "list": "palavras-com-s",
+     "title": "Palavras com s",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-s"
+    },
+    {
+     "list": "palavras-com-z",
+     "title": "Palavras com z",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-z"
+    },
+    {
+     "list": "palavras-com-h",
+     "title": "Palavras com h",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-h"
+    },
+    {
+     "list": "palavras-com-r",
+     "title": "Palavras com r",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-r"
+    },
+    {
+     "list": "palavras-com-g",
+     "title": "Palavras com g",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-g"
+    },
+    {
+     "list": "palavras-com-j",
+     "title": "Palavras com j",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-j"
+    },
+    {
+     "list": "palavras-com-k",
+     "title": "Palavras com k",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-k"
+    },
+    {
+     "list": "familia-silabica-do-b",
+     "title": "Família do B",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-b"
+    },
+    {
+     "list": "familia-silabica-do-c",
+     "title": "Família do C",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-c"
+    },
+    {
+     "list": "familia-silabica-do-d",
+     "title": "Família do D",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-d"
+    },
+    {
+     "list": "familia-silabica-do-f",
+     "title": "Família do F",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-f"
+    },
+    {
+     "list": "familia-silabica-do-g",
+     "title": "Família do G",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-g"
+    },
+    {
+     "list": "familia-silabica-do-j",
+     "title": "Família do J",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-j"
+    },
+    {
+     "list": "familia-silabica-do-l",
+     "title": "Família do L",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-l"
+    },
+    {
+     "list": "familia-silabica-do-m",
+     "title": "Família do M",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-m"
+    },
+    {
+     "list": "familia-silabica-do-n",
+     "title": "Família do N",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-n"
+    },
+    {
+     "list": "familia-silabica-do-p",
+     "title": "Família do P",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-p"
+    },
+    {
+     "list": "familia-silabica-do-r",
+     "title": "Família do R",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-r"
+    },
+    {
+     "list": "familia-silabica-do-s",
+     "title": "Família do S",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-s"
+    },
+    {
+     "list": "familia-silabica-do-t",
+     "title": "Família do T",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-t"
+    },
+    {
+     "list": "familia-silabica-do-v",
+     "title": "Família do V",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-v"
+    },
+    {
+     "list": "familia-silabica-do-x",
+     "title": "Família do X",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-x"
+    },
+    {
+     "list": "familia-silabica-do-z",
+     "title": "Família do Z",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-z"
+    },
+    {
+     "list": "silabas-simples",
+     "title": "Sílabas simples",
+     "page": "https://dyslexiasteps.com/pt-br/silabas-simples"
+    },
+    {
+     "list": "silabas-complexas",
+     "title": "Sílabas complexas",
+     "page": "https://dyslexiasteps.com/pt-br/silabas-complexas"
+    },
+    {
+     "list": "separacao-silabica",
+     "title": "Separação silábica",
+     "page": "https://dyslexiasteps.com/pt-br/separacao-silabica"
+    },
+    {
+     "list": "palavras-com-br",
+     "title": "Palavras com br",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-br"
+    },
+    {
+     "list": "palavras-com-bl",
+     "title": "Palavras com bl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-bl"
+    },
+    {
+     "list": "palavras-com-cr",
+     "title": "Palavras com cr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-cr"
+    },
+    {
+     "list": "palavras-com-cl",
+     "title": "Palavras com cl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-cl"
+    },
+    {
+     "list": "palavras-com-pr",
+     "title": "Palavras com pr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-pr"
+    },
+    {
+     "list": "palavras-com-pl",
+     "title": "Palavras com pl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-pl"
+    },
+    {
+     "list": "palavras-com-tr",
+     "title": "Palavras com tr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-tr"
+    },
+    {
+     "list": "palavras-com-gr",
+     "title": "Palavras com gr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-gr"
+    },
+    {
+     "list": "palavras-com-gl",
+     "title": "Palavras com gl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-gl"
+    },
+    {
+     "list": "palavras-com-fr",
+     "title": "Palavras com fr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-fr"
+    },
+    {
+     "list": "palavras-com-fl",
+     "title": "Palavras com fl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-fl"
+    },
+    {
+     "list": "palavras-com-dr",
+     "title": "Palavras com dr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-dr"
+    },
+    {
+     "list": "ditongo",
+     "title": "Ditongo",
+     "page": "https://dyslexiasteps.com/pt-br/ditongo"
+    },
+    {
+     "list": "hiato",
+     "title": "Hiato",
+     "page": "https://dyslexiasteps.com/pt-br/hiato"
+    },
+    {
+     "list": "ditado-de-palavras",
+     "title": "Ditado de palavras",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-de-palavras"
+    },
+    {
+     "list": "ditado-de-frases",
+     "title": "Ditado de frases",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-de-frases"
+    },
+    {
+     "list": "ditado-1-ano",
+     "title": "Ditado 1º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-1-ano"
+    },
+    {
+     "list": "ditado-2-ano",
+     "title": "Ditado 2º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-2-ano"
+    },
+    {
+     "list": "ditado-3-ano",
+     "title": "Ditado 3º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-3-ano"
+    },
+    {
+     "list": "alfabeto",
+     "title": "Alfabeto",
+     "page": "https://dyslexiasteps.com/pt-br/alfabeto"
+    },
+    {
+     "list": "palavras-que-rimam",
+     "title": "Palavras que rimam",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-que-rimam"
+    },
+    {
+     "list": "atividades-de-alfabetizacao-1-ano",
+     "title": "Atividades 1º ano",
+     "page": "https://dyslexiasteps.com/pt-br/atividades-de-alfabetizacao-1-ano"
+    },
+    {
+     "list": "atividades-de-alfabetizacao-2-ano",
+     "title": "Atividades 2º ano",
+     "page": "https://dyslexiasteps.com/pt-br/atividades-de-alfabetizacao-2-ano"
+    },
+    {
+     "list": "consciencia-fonologica",
+     "title": "Consciência fonológica",
+     "page": "https://dyslexiasteps.com/pt-br/consciencia-fonologica"
+    }
+   ]
+  },
+  "build": {
+   "en": [
+    {
+     "list": "short-a",
+     "title": "Short a words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-a"
+    },
+    {
+     "list": "short-e",
+     "title": "Short e words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-e"
+    },
+    {
+     "list": "short-i",
+     "title": "Short i words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-i"
+    },
+    {
+     "list": "short-o",
+     "title": "Short o words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-o"
+    },
+    {
+     "list": "short-u",
+     "title": "Short u words",
+     "page": "https://dyslexiasteps.com/cvc-words/short-u"
+    },
+    {
+     "list": "at-family",
+     "title": "At family words",
+     "page": "https://dyslexiasteps.com/word-families/at"
+    },
+    {
+     "list": "an-family",
+     "title": "An family words",
+     "page": "https://dyslexiasteps.com/word-families/an"
+    },
+    {
+     "list": "ap-family",
+     "title": "Ap family words",
+     "page": "https://dyslexiasteps.com/word-families/ap"
+    },
+    {
+     "list": "ag-family",
+     "title": "Ag family words",
+     "page": "https://dyslexiasteps.com/word-families/ag"
+    },
+    {
+     "list": "ig-family",
+     "title": "Ig family words",
+     "page": "https://dyslexiasteps.com/word-families/ig"
+    },
+    {
+     "list": "in-family",
+     "title": "In family words",
+     "page": "https://dyslexiasteps.com/word-families/in"
+    },
+    {
+     "list": "it-family",
+     "title": "It family words",
+     "page": "https://dyslexiasteps.com/word-families/it"
+    },
+    {
+     "list": "ip-family",
+     "title": "Ip family words",
+     "page": "https://dyslexiasteps.com/word-families/ip"
+    },
+    {
+     "list": "op-family",
+     "title": "Op family words",
+     "page": "https://dyslexiasteps.com/word-families/op"
+    },
+    {
+     "list": "ot-family",
+     "title": "Ot family words",
+     "page": "https://dyslexiasteps.com/word-families/ot"
+    },
+    {
+     "list": "og-family",
+     "title": "Og family words",
+     "page": "https://dyslexiasteps.com/word-families/og"
+    },
+    {
+     "list": "ug-family",
+     "title": "Ug family words",
+     "page": "https://dyslexiasteps.com/word-families/ug"
+    },
+    {
+     "list": "un-family",
+     "title": "Un family words",
+     "page": "https://dyslexiasteps.com/word-families/un"
+    },
+    {
+     "list": "et-family",
+     "title": "Et family words",
+     "page": "https://dyslexiasteps.com/word-families/et"
+    },
+    {
+     "list": "en-family",
+     "title": "En family words",
+     "page": "https://dyslexiasteps.com/word-families/en"
+    },
+    {
+     "list": "sh",
+     "title": "Sh words",
+     "page": "https://dyslexiasteps.com/digraphs/sh"
+    },
+    {
+     "list": "ch",
+     "title": "Ch words",
+     "page": "https://dyslexiasteps.com/digraphs/ch"
+    },
+    {
+     "list": "th",
+     "title": "Th words",
+     "page": "https://dyslexiasteps.com/digraphs/th"
+    },
+    {
+     "list": "wh",
+     "title": "Wh words",
+     "page": "https://dyslexiasteps.com/digraphs/wh"
+    },
+    {
+     "list": "ck",
+     "title": "Ck words",
+     "page": "https://dyslexiasteps.com/digraphs/ck"
+    },
+    {
+     "list": "ph",
+     "title": "Ph words",
+     "page": "https://dyslexiasteps.com/digraphs/ph"
+    },
+    {
+     "list": "silent-e-words",
+     "title": "Silent e words",
+     "page": "https://dyslexiasteps.com/silent-e-words"
+    },
+    {
+     "list": "vowel-teams",
+     "title": "Vowel teams",
+     "page": "https://dyslexiasteps.com/vowel-teams"
+    },
+    {
+     "list": "r-controlled-vowels",
+     "title": "R-controlled vowels",
+     "page": "https://dyslexiasteps.com/r-controlled-vowels"
+    },
+    {
+     "list": "consonant-blends",
+     "title": "Consonant blends",
+     "page": "https://dyslexiasteps.com/consonant-blends"
+    },
+    {
+     "list": "nonsense-words",
+     "title": "Nonsense words",
+     "page": "https://dyslexiasteps.com/nonsense-words"
+    },
+    {
+     "list": "rhyming-words",
+     "title": "Rhyming words",
+     "page": "https://dyslexiasteps.com/rhyming-words"
+    }
+   ],
+   "de": [
+    {
+     "list": "woerter-mit-sch",
+     "title": "Wörter mit sch",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-sch"
+    },
+    {
+     "list": "woerter-mit-ch",
+     "title": "Wörter mit ch",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ch"
+    },
+    {
+     "list": "woerter-mit-chs",
+     "title": "Wörter mit chs",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-chs"
+    },
+    {
+     "list": "woerter-mit-ei",
+     "title": "Wörter mit ei",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ei"
+    },
+    {
+     "list": "woerter-mit-eu",
+     "title": "Wörter mit eu",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-eu"
+    },
+    {
+     "list": "woerter-mit-au",
+     "title": "Wörter mit au",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-au"
+    },
+    {
+     "list": "woerter-mit-ie",
+     "title": "Wörter mit ie",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ie"
+    },
+    {
+     "list": "woerter-mit-ck",
+     "title": "Wörter mit ck",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ck"
+    },
+    {
+     "list": "woerter-mit-tz",
+     "title": "Wörter mit tz",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-tz"
+    },
+    {
+     "list": "woerter-mit-st",
+     "title": "Wörter mit st",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-st"
+    },
+    {
+     "list": "woerter-mit-sp",
+     "title": "Wörter mit sp",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-sp"
+    },
+    {
+     "list": "woerter-mit-pf",
+     "title": "Wörter mit pf",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-pf"
+    },
+    {
+     "list": "woerter-mit-ng",
+     "title": "Wörter mit ng",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ng"
+    },
+    {
+     "list": "woerter-mit-nk",
+     "title": "Wörter mit nk",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-nk"
+    },
+    {
+     "list": "woerter-mit-qu",
+     "title": "Wörter mit qu",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-qu"
+    },
+    {
+     "list": "woerter-mit-x",
+     "title": "Wörter mit x",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-x"
+    },
+    {
+     "list": "woerter-mit-y",
+     "title": "Wörter mit y",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-y"
+    },
+    {
+     "list": "woerter-mit-v",
+     "title": "Wörter mit v",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-v"
+    },
+    {
+     "list": "woerter-mit-ae",
+     "title": "Wörter mit ä",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ae"
+    },
+    {
+     "list": "woerter-mit-oe",
+     "title": "Wörter mit ö",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-oe"
+    },
+    {
+     "list": "woerter-mit-ue",
+     "title": "Wörter mit ü",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-ue"
+    },
+    {
+     "list": "woerter-mit-aeu",
+     "title": "Wörter mit äu",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-aeu"
+    },
+    {
+     "list": "lange-und-kurze-vokale",
+     "title": "Lange und kurze Vokale",
+     "page": "https://dyslexiasteps.com/de/lange-und-kurze-vokale"
+    },
+    {
+     "list": "dehnungs-h",
+     "title": "Dehnungs-h",
+     "page": "https://dyslexiasteps.com/de/dehnungs-h"
+    },
+    {
+     "list": "doppelkonsonanten",
+     "title": "Doppelkonsonanten",
+     "page": "https://dyslexiasteps.com/de/doppelkonsonanten"
+    },
+    {
+     "list": "woerter-mit-eszett",
+     "title": "Wörter mit ß",
+     "page": "https://dyslexiasteps.com/de/woerter-mit-eszett"
+    },
+    {
+     "list": "ss-oder-eszett",
+     "title": "ss oder ß",
+     "page": "https://dyslexiasteps.com/de/ss-oder-eszett"
+    },
+    {
+     "list": "merkwoerter",
+     "title": "Merkwörter",
+     "page": "https://dyslexiasteps.com/de/merkwoerter"
+    },
+    {
+     "list": "lernwoerter",
+     "title": "Lernwörter",
+     "page": "https://dyslexiasteps.com/de/lernwoerter"
+    },
+    {
+     "list": "lautgetreue-woerter",
+     "title": "Lautgetreue Wörter",
+     "page": "https://dyslexiasteps.com/de/lautgetreue-woerter"
+    },
+    {
+     "list": "silbentrennung",
+     "title": "Silbentrennung",
+     "page": "https://dyslexiasteps.com/de/silbentrennung"
+    },
+    {
+     "list": "offene-und-geschlossene-silben",
+     "title": "Offene und geschlossene Silben",
+     "page": "https://dyslexiasteps.com/de/offene-und-geschlossene-silben"
+    },
+    {
+     "list": "silbenboegen",
+     "title": "Silbenbögen",
+     "page": "https://dyslexiasteps.com/de/silbenboegen"
+    },
+    {
+     "list": "silben-klatschen",
+     "title": "Silben klatschen",
+     "page": "https://dyslexiasteps.com/de/silben-klatschen"
+    },
+    {
+     "list": "anlauttabelle",
+     "title": "Anlauttabelle",
+     "page": "https://dyslexiasteps.com/de/anlauttabelle"
+    },
+    {
+     "list": "anlaute",
+     "title": "Anlaute",
+     "page": "https://dyslexiasteps.com/de/anlaute"
+    },
+    {
+     "list": "reimwoerter",
+     "title": "Reimwörter",
+     "page": "https://dyslexiasteps.com/de/reimwoerter"
+    },
+    {
+     "list": "diktat-klasse-1",
+     "title": "Diktat Klasse 1",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-1"
+    },
+    {
+     "list": "diktat-klasse-2",
+     "title": "Diktat Klasse 2",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-2"
+    },
+    {
+     "list": "diktat-klasse-3",
+     "title": "Diktat Klasse 3",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-3"
+    },
+    {
+     "list": "diktat-klasse-4",
+     "title": "Diktat Klasse 4",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-4"
+    },
+    {
+     "list": "laufdiktat",
+     "title": "Laufdiktat",
+     "page": "https://dyslexiasteps.com/de/laufdiktat"
+    },
+    {
+     "list": "alphabet",
+     "title": "Das Alphabet",
+     "page": "https://dyslexiasteps.com/de/alphabet"
+    }
+   ],
+   "es": [
+    {
+     "list": "vocales",
+     "title": "Palabras con vocales",
+     "page": "https://dyslexiasteps.com/es/vocales"
+    },
+    {
+     "list": "palabras-con-b",
+     "title": "Palabras con b",
+     "page": "https://dyslexiasteps.com/es/palabras-con-b"
+    },
+    {
+     "list": "palabras-con-c",
+     "title": "Palabras con c",
+     "page": "https://dyslexiasteps.com/es/palabras-con-c"
+    },
+    {
+     "list": "palabras-con-d",
+     "title": "Palabras con d",
+     "page": "https://dyslexiasteps.com/es/palabras-con-d"
+    },
+    {
+     "list": "palabras-con-f",
+     "title": "Palabras con f",
+     "page": "https://dyslexiasteps.com/es/palabras-con-f"
+    },
+    {
+     "list": "palabras-con-g",
+     "title": "Palabras con g",
+     "page": "https://dyslexiasteps.com/es/palabras-con-g"
+    },
+    {
+     "list": "palabras-con-h",
+     "title": "Palabras con h",
+     "page": "https://dyslexiasteps.com/es/palabras-con-h"
+    },
+    {
+     "list": "palabras-con-j",
+     "title": "Palabras con j",
+     "page": "https://dyslexiasteps.com/es/palabras-con-j"
+    },
+    {
+     "list": "palabras-con-k",
+     "title": "Palabras con k",
+     "page": "https://dyslexiasteps.com/es/palabras-con-k"
+    },
+    {
+     "list": "palabras-con-l",
+     "title": "Palabras con l",
+     "page": "https://dyslexiasteps.com/es/palabras-con-l"
+    },
+    {
+     "list": "palabras-con-ll",
+     "title": "Palabras con ll",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ll"
+    },
+    {
+     "list": "palabras-con-m",
+     "title": "Palabras con m",
+     "page": "https://dyslexiasteps.com/es/palabras-con-m"
+    },
+    {
+     "list": "palabras-con-n",
+     "title": "Palabras con n",
+     "page": "https://dyslexiasteps.com/es/palabras-con-n"
+    },
+    {
+     "list": "palabras-con-n-tilde",
+     "title": "Palabras con ñ",
+     "page": "https://dyslexiasteps.com/es/palabras-con-n-tilde"
+    },
+    {
+     "list": "palabras-con-p",
+     "title": "Palabras con p",
+     "page": "https://dyslexiasteps.com/es/palabras-con-p"
+    },
+    {
+     "list": "palabras-con-que-qui",
+     "title": "Palabras con que y qui",
+     "page": "https://dyslexiasteps.com/es/palabras-con-que-qui"
+    },
+    {
+     "list": "palabras-con-r",
+     "title": "Palabras con r",
+     "page": "https://dyslexiasteps.com/es/palabras-con-r"
+    },
+    {
+     "list": "palabras-con-rr",
+     "title": "Palabras con rr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-rr"
+    },
+    {
+     "list": "palabras-con-s",
+     "title": "Palabras con s",
+     "page": "https://dyslexiasteps.com/es/palabras-con-s"
+    },
+    {
+     "list": "palabras-con-t",
+     "title": "Palabras con t",
+     "page": "https://dyslexiasteps.com/es/palabras-con-t"
+    },
+    {
+     "list": "palabras-con-v",
+     "title": "Palabras con v",
+     "page": "https://dyslexiasteps.com/es/palabras-con-v"
+    },
+    {
+     "list": "palabras-con-x",
+     "title": "Palabras con x",
+     "page": "https://dyslexiasteps.com/es/palabras-con-x"
+    },
+    {
+     "list": "palabras-con-y",
+     "title": "Palabras con y",
+     "page": "https://dyslexiasteps.com/es/palabras-con-y"
+    },
+    {
+     "list": "palabras-con-z",
+     "title": "Palabras con z",
+     "page": "https://dyslexiasteps.com/es/palabras-con-z"
+    },
+    {
+     "list": "palabras-con-ch",
+     "title": "Palabras con ch",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ch"
+    },
+    {
+     "list": "palabras-con-gue-gui",
+     "title": "Palabras con gue y gui",
+     "page": "https://dyslexiasteps.com/es/palabras-con-gue-gui"
+    },
+    {
+     "list": "palabras-con-guee-guei",
+     "title": "Palabras con güe y güi",
+     "page": "https://dyslexiasteps.com/es/palabras-con-guee-guei"
+    },
+    {
+     "list": "palabras-con-ce-ci",
+     "title": "Palabras con ce y ci",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ce-ci"
+    },
+    {
+     "list": "palabras-con-ge-gi",
+     "title": "Palabras con ge y gi",
+     "page": "https://dyslexiasteps.com/es/palabras-con-ge-gi"
+    },
+    {
+     "list": "palabras-con-mb-mp",
+     "title": "Palabras con mb y mp",
+     "page": "https://dyslexiasteps.com/es/palabras-con-mb-mp"
+    },
+    {
+     "list": "silabario",
+     "title": "Silabario",
+     "page": "https://dyslexiasteps.com/es/silabario"
+    },
+    {
+     "list": "palabras-con-bl",
+     "title": "Palabras con bl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-bl"
+    },
+    {
+     "list": "palabras-con-br",
+     "title": "Palabras con br",
+     "page": "https://dyslexiasteps.com/es/palabras-con-br"
+    },
+    {
+     "list": "palabras-con-cl",
+     "title": "Palabras con cl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-cl"
+    },
+    {
+     "list": "palabras-con-cr",
+     "title": "Palabras con cr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-cr"
+    },
+    {
+     "list": "palabras-con-dr",
+     "title": "Palabras con dr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-dr"
+    },
+    {
+     "list": "palabras-con-fl",
+     "title": "Palabras con fl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-fl"
+    },
+    {
+     "list": "palabras-con-fr",
+     "title": "Palabras con fr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-fr"
+    },
+    {
+     "list": "palabras-con-gl",
+     "title": "Palabras con gl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-gl"
+    },
+    {
+     "list": "palabras-con-gr",
+     "title": "Palabras con gr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-gr"
+    },
+    {
+     "list": "palabras-con-pl",
+     "title": "Palabras con pl",
+     "page": "https://dyslexiasteps.com/es/palabras-con-pl"
+    },
+    {
+     "list": "palabras-con-pr",
+     "title": "Palabras con pr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-pr"
+    },
+    {
+     "list": "palabras-con-tr",
+     "title": "Palabras con tr",
+     "page": "https://dyslexiasteps.com/es/palabras-con-tr"
+    },
+    {
+     "list": "silabas-inversas",
+     "title": "Sílabas inversas",
+     "page": "https://dyslexiasteps.com/es/silabas-inversas"
+    },
+    {
+     "list": "como-separar-en-silabas",
+     "title": "Separar en sílabas",
+     "page": "https://dyslexiasteps.com/es/como-separar-en-silabas"
+    },
+    {
+     "list": "dictado-de-palabras",
+     "title": "Dictado de palabras",
+     "page": "https://dyslexiasteps.com/es/dictado-de-palabras"
+    },
+    {
+     "list": "dictado-de-oraciones",
+     "title": "Dictado de oraciones",
+     "page": "https://dyslexiasteps.com/es/dictado-de-oraciones"
+    },
+    {
+     "list": "dictado-primer-grado",
+     "title": "Dictado 1.º",
+     "page": "https://dyslexiasteps.com/es/dictado-primer-grado"
+    },
+    {
+     "list": "dictado-segundo-grado",
+     "title": "Dictado 2.º",
+     "page": "https://dyslexiasteps.com/es/dictado-segundo-grado"
+    },
+    {
+     "list": "dictado-tercer-grado",
+     "title": "Dictado 3.º",
+     "page": "https://dyslexiasteps.com/es/dictado-tercer-grado"
+    },
+    {
+     "list": "abecedario",
+     "title": "Abecedario",
+     "page": "https://dyslexiasteps.com/es/abecedario"
+    },
+    {
+     "list": "palabras-que-riman",
+     "title": "Palabras que riman",
+     "page": "https://dyslexiasteps.com/es/palabras-que-riman"
+    }
+   ],
+   "fr": [
+    {
+     "list": "les-voyelles",
+     "title": "Les voyelles",
+     "page": "https://dyslexiasteps.com/fr/les-voyelles"
+    },
+    {
+     "list": "le-son-ou",
+     "title": "Le son ou",
+     "page": "https://dyslexiasteps.com/fr/le-son-ou"
+    },
+    {
+     "list": "le-son-on",
+     "title": "Le son on",
+     "page": "https://dyslexiasteps.com/fr/le-son-on"
+    },
+    {
+     "list": "le-son-an",
+     "title": "Le son an",
+     "page": "https://dyslexiasteps.com/fr/le-son-an"
+    },
+    {
+     "list": "le-son-in",
+     "title": "Le son in",
+     "page": "https://dyslexiasteps.com/fr/le-son-in"
+    },
+    {
+     "list": "le-son-oi",
+     "title": "Le son oi",
+     "page": "https://dyslexiasteps.com/fr/le-son-oi"
+    },
+    {
+     "list": "le-son-ai",
+     "title": "Le son è",
+     "page": "https://dyslexiasteps.com/fr/le-son-ai"
+    },
+    {
+     "list": "le-son-o",
+     "title": "Le son o",
+     "page": "https://dyslexiasteps.com/fr/le-son-o"
+    },
+    {
+     "list": "le-son-eu",
+     "title": "Le son eu",
+     "page": "https://dyslexiasteps.com/fr/le-son-eu"
+    },
+    {
+     "list": "le-son-e",
+     "title": "Le son é",
+     "page": "https://dyslexiasteps.com/fr/le-son-e"
+    },
+    {
+     "list": "le-son-ch",
+     "title": "Le son ch",
+     "page": "https://dyslexiasteps.com/fr/le-son-ch"
+    },
+    {
+     "list": "le-son-gn",
+     "title": "Le son gn",
+     "page": "https://dyslexiasteps.com/fr/le-son-gn"
+    },
+    {
+     "list": "le-son-ill",
+     "title": "Le son ill",
+     "page": "https://dyslexiasteps.com/fr/le-son-ill"
+    },
+    {
+     "list": "le-son-oin",
+     "title": "Le son oin",
+     "page": "https://dyslexiasteps.com/fr/le-son-oin"
+    },
+    {
+     "list": "le-son-s",
+     "title": "Le son s",
+     "page": "https://dyslexiasteps.com/fr/le-son-s"
+    },
+    {
+     "list": "le-son-z",
+     "title": "Le son z",
+     "page": "https://dyslexiasteps.com/fr/le-son-z"
+    },
+    {
+     "list": "le-son-k",
+     "title": "Le son k",
+     "page": "https://dyslexiasteps.com/fr/le-son-k"
+    },
+    {
+     "list": "le-son-g",
+     "title": "Le son g",
+     "page": "https://dyslexiasteps.com/fr/le-son-g"
+    },
+    {
+     "list": "le-son-j",
+     "title": "Le son j",
+     "page": "https://dyslexiasteps.com/fr/le-son-j"
+    },
+    {
+     "list": "le-son-f",
+     "title": "Le son f",
+     "page": "https://dyslexiasteps.com/fr/le-son-f"
+    },
+    {
+     "list": "compter-les-syllabes",
+     "title": "Compter les syllabes",
+     "page": "https://dyslexiasteps.com/fr/compter-les-syllabes"
+    },
+    {
+     "list": "methode-syllabique",
+     "title": "Méthode syllabique",
+     "page": "https://dyslexiasteps.com/fr/methode-syllabique"
+    },
+    {
+     "list": "syllabes-simples-et-complexes",
+     "title": "Syllabes simples et complexes",
+     "page": "https://dyslexiasteps.com/fr/syllabes-simples-et-complexes"
+    },
+    {
+     "list": "rimes-en-e",
+     "title": "Rimes en é",
+     "page": "https://dyslexiasteps.com/fr/rimes-en-e"
+    },
+    {
+     "list": "rimes-en-on",
+     "title": "Rimes en on",
+     "page": "https://dyslexiasteps.com/fr/rimes-en-on"
+    },
+    {
+     "list": "rimes-en-an",
+     "title": "Rimes en an",
+     "page": "https://dyslexiasteps.com/fr/rimes-en-an"
+    },
+    {
+     "list": "mots-invariables-ce1",
+     "title": "Mots invariables CE1",
+     "page": "https://dyslexiasteps.com/fr/mots-invariables-ce1"
+    },
+    {
+     "list": "mots-invariables-ce2",
+     "title": "Mots invariables CE2",
+     "page": "https://dyslexiasteps.com/fr/mots-invariables-ce2"
+    },
+    {
+     "list": "mots-invariables-cm1",
+     "title": "Mots invariables CM1",
+     "page": "https://dyslexiasteps.com/fr/mots-invariables-cm1"
+    },
+    {
+     "list": "dictee-cp",
+     "title": "Dictée CP",
+     "page": "https://dyslexiasteps.com/fr/dictee-cp"
+    },
+    {
+     "list": "dictee-ce1",
+     "title": "Dictée CE1",
+     "page": "https://dyslexiasteps.com/fr/dictee-ce1"
+    },
+    {
+     "list": "dictee-ce2",
+     "title": "Dictée CE2",
+     "page": "https://dyslexiasteps.com/fr/dictee-ce2"
+    },
+    {
+     "list": "dictee-cm1",
+     "title": "Dictée CM1",
+     "page": "https://dyslexiasteps.com/fr/dictee-cm1"
+    },
+    {
+     "list": "dictee-cm2",
+     "title": "Dictée CM2",
+     "page": "https://dyslexiasteps.com/fr/dictee-cm2"
+    },
+    {
+     "list": "dictee-de-mots",
+     "title": "Dictée de mots",
+     "page": "https://dyslexiasteps.com/fr/dictee-de-mots"
+    },
+    {
+     "list": "alphabet",
+     "title": "L'alphabet",
+     "page": "https://dyslexiasteps.com/fr/alphabet"
+    }
+   ],
+   "nl": [
+    {
+     "list": "klinkers",
+     "title": "Klinkers",
+     "page": "https://dyslexiasteps.com/nl/klinkers"
+    },
+    {
+     "list": "medeklinkers",
+     "title": "Medeklinkers",
+     "page": "https://dyslexiasteps.com/nl/medeklinkers"
+    },
+    {
+     "list": "lange-klanken",
+     "title": "Lange klanken",
+     "page": "https://dyslexiasteps.com/nl/lange-klanken"
+    },
+    {
+     "list": "woorden-met-oe",
+     "title": "Woorden met oe",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-oe"
+    },
+    {
+     "list": "woorden-met-ie",
+     "title": "Woorden met ie",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ie"
+    },
+    {
+     "list": "woorden-met-eu",
+     "title": "Woorden met eu",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-eu"
+    },
+    {
+     "list": "woorden-met-ui",
+     "title": "Woorden met ui",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ui"
+    },
+    {
+     "list": "woorden-met-ei",
+     "title": "Woorden met ei",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ei"
+    },
+    {
+     "list": "woorden-met-ij",
+     "title": "Woorden met ij",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ij"
+    },
+    {
+     "list": "ei-of-ij",
+     "title": "Ei of ij",
+     "page": "https://dyslexiasteps.com/nl/ei-of-ij"
+    },
+    {
+     "list": "woorden-met-au",
+     "title": "Woorden met au",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-au"
+    },
+    {
+     "list": "woorden-met-ou",
+     "title": "Woorden met ou",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ou"
+    },
+    {
+     "list": "au-of-ou",
+     "title": "Au of ou",
+     "page": "https://dyslexiasteps.com/nl/au-of-ou"
+    },
+    {
+     "list": "woorden-met-ch",
+     "title": "Woorden met ch",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ch"
+    },
+    {
+     "list": "woorden-met-sch",
+     "title": "Woorden met sch",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-sch"
+    },
+    {
+     "list": "woorden-met-ng-en-nk",
+     "title": "Woorden met ng en nk",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-ng-en-nk"
+    },
+    {
+     "list": "woorden-met-eeuw-ieuw-uw",
+     "title": "Eeuw, ieuw en uw",
+     "page": "https://dyslexiasteps.com/nl/woorden-met-eeuw-ieuw-uw"
+    },
+    {
+     "list": "lettergrepen",
+     "title": "Lettergrepen",
+     "page": "https://dyslexiasteps.com/nl/lettergrepen"
+    },
+    {
+     "list": "dictee-groep-4",
+     "title": "Dictee groep 4",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-4"
+    },
+    {
+     "list": "dictee-groep-5",
+     "title": "Dictee groep 5",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-5"
+    },
+    {
+     "list": "alfabet",
+     "title": "Alfabet",
+     "page": "https://dyslexiasteps.com/nl/alfabet"
+    }
+   ],
+   "pt-br": [
+    {
+     "list": "vogais",
+     "title": "Vogais",
+     "page": "https://dyslexiasteps.com/pt-br/vogais"
+    },
+    {
+     "list": "palavras-com-lh",
+     "title": "Palavras com lh",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-lh"
+    },
+    {
+     "list": "palavras-com-nh",
+     "title": "Palavras com nh",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-nh"
+    },
+    {
+     "list": "palavras-com-ch",
+     "title": "Palavras com ch",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-ch"
+    },
+    {
+     "list": "palavras-com-rr",
+     "title": "Palavras com rr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-rr"
+    },
+    {
+     "list": "palavras-com-ss",
+     "title": "Palavras com ss",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-ss"
+    },
+    {
+     "list": "palavras-com-c-cedilha",
+     "title": "Palavras com ç",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-c-cedilha"
+    },
+    {
+     "list": "palavras-com-gu",
+     "title": "Palavras com gu",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-gu"
+    },
+    {
+     "list": "palavras-com-qu",
+     "title": "Palavras com qu",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-qu"
+    },
+    {
+     "list": "palavras-com-ao",
+     "title": "Palavras com ão",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-ao"
+    },
+    {
+     "list": "palavras-com-x",
+     "title": "Palavras com x",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-x"
+    },
+    {
+     "list": "palavras-com-s",
+     "title": "Palavras com s",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-s"
+    },
+    {
+     "list": "palavras-com-z",
+     "title": "Palavras com z",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-z"
+    },
+    {
+     "list": "palavras-com-h",
+     "title": "Palavras com h",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-h"
+    },
+    {
+     "list": "palavras-com-r",
+     "title": "Palavras com r",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-r"
+    },
+    {
+     "list": "palavras-com-g",
+     "title": "Palavras com g",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-g"
+    },
+    {
+     "list": "palavras-com-j",
+     "title": "Palavras com j",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-j"
+    },
+    {
+     "list": "palavras-com-k",
+     "title": "Palavras com k",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-k"
+    },
+    {
+     "list": "familia-silabica-do-b",
+     "title": "Família do B",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-b"
+    },
+    {
+     "list": "familia-silabica-do-c",
+     "title": "Família do C",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-c"
+    },
+    {
+     "list": "familia-silabica-do-d",
+     "title": "Família do D",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-d"
+    },
+    {
+     "list": "familia-silabica-do-f",
+     "title": "Família do F",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-f"
+    },
+    {
+     "list": "familia-silabica-do-g",
+     "title": "Família do G",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-g"
+    },
+    {
+     "list": "familia-silabica-do-j",
+     "title": "Família do J",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-j"
+    },
+    {
+     "list": "familia-silabica-do-l",
+     "title": "Família do L",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-l"
+    },
+    {
+     "list": "familia-silabica-do-m",
+     "title": "Família do M",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-m"
+    },
+    {
+     "list": "familia-silabica-do-n",
+     "title": "Família do N",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-n"
+    },
+    {
+     "list": "familia-silabica-do-p",
+     "title": "Família do P",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-p"
+    },
+    {
+     "list": "familia-silabica-do-r",
+     "title": "Família do R",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-r"
+    },
+    {
+     "list": "familia-silabica-do-s",
+     "title": "Família do S",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-s"
+    },
+    {
+     "list": "familia-silabica-do-t",
+     "title": "Família do T",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-t"
+    },
+    {
+     "list": "familia-silabica-do-v",
+     "title": "Família do V",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-v"
+    },
+    {
+     "list": "familia-silabica-do-x",
+     "title": "Família do X",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-x"
+    },
+    {
+     "list": "familia-silabica-do-z",
+     "title": "Família do Z",
+     "page": "https://dyslexiasteps.com/pt-br/familia-silabica-do-z"
+    },
+    {
+     "list": "silabas-simples",
+     "title": "Sílabas simples",
+     "page": "https://dyslexiasteps.com/pt-br/silabas-simples"
+    },
+    {
+     "list": "silabas-complexas",
+     "title": "Sílabas complexas",
+     "page": "https://dyslexiasteps.com/pt-br/silabas-complexas"
+    },
+    {
+     "list": "separacao-silabica",
+     "title": "Separação silábica",
+     "page": "https://dyslexiasteps.com/pt-br/separacao-silabica"
+    },
+    {
+     "list": "palavras-com-br",
+     "title": "Palavras com br",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-br"
+    },
+    {
+     "list": "palavras-com-bl",
+     "title": "Palavras com bl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-bl"
+    },
+    {
+     "list": "palavras-com-cr",
+     "title": "Palavras com cr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-cr"
+    },
+    {
+     "list": "palavras-com-cl",
+     "title": "Palavras com cl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-cl"
+    },
+    {
+     "list": "palavras-com-pr",
+     "title": "Palavras com pr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-pr"
+    },
+    {
+     "list": "palavras-com-pl",
+     "title": "Palavras com pl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-pl"
+    },
+    {
+     "list": "palavras-com-tr",
+     "title": "Palavras com tr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-tr"
+    },
+    {
+     "list": "palavras-com-gr",
+     "title": "Palavras com gr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-gr"
+    },
+    {
+     "list": "palavras-com-gl",
+     "title": "Palavras com gl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-gl"
+    },
+    {
+     "list": "palavras-com-fr",
+     "title": "Palavras com fr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-fr"
+    },
+    {
+     "list": "palavras-com-fl",
+     "title": "Palavras com fl",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-fl"
+    },
+    {
+     "list": "palavras-com-dr",
+     "title": "Palavras com dr",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-com-dr"
+    },
+    {
+     "list": "ditongo",
+     "title": "Ditongo",
+     "page": "https://dyslexiasteps.com/pt-br/ditongo"
+    },
+    {
+     "list": "hiato",
+     "title": "Hiato",
+     "page": "https://dyslexiasteps.com/pt-br/hiato"
+    },
+    {
+     "list": "ditado-de-palavras",
+     "title": "Ditado de palavras",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-de-palavras"
+    },
+    {
+     "list": "ditado-de-frases",
+     "title": "Ditado de frases",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-de-frases"
+    },
+    {
+     "list": "ditado-1-ano",
+     "title": "Ditado 1º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-1-ano"
+    },
+    {
+     "list": "ditado-2-ano",
+     "title": "Ditado 2º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-2-ano"
+    },
+    {
+     "list": "ditado-3-ano",
+     "title": "Ditado 3º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-3-ano"
+    },
+    {
+     "list": "alfabeto",
+     "title": "Alfabeto",
+     "page": "https://dyslexiasteps.com/pt-br/alfabeto"
+    },
+    {
+     "list": "palavras-que-rimam",
+     "title": "Palavras que rimam",
+     "page": "https://dyslexiasteps.com/pt-br/palavras-que-rimam"
+    },
+    {
+     "list": "atividades-de-alfabetizacao-1-ano",
+     "title": "Atividades 1º ano",
+     "page": "https://dyslexiasteps.com/pt-br/atividades-de-alfabetizacao-1-ano"
+    },
+    {
+     "list": "atividades-de-alfabetizacao-2-ano",
+     "title": "Atividades 2º ano",
+     "page": "https://dyslexiasteps.com/pt-br/atividades-de-alfabetizacao-2-ano"
+    },
+    {
+     "list": "consciencia-fonologica",
+     "title": "Consciência fonológica",
+     "page": "https://dyslexiasteps.com/pt-br/consciencia-fonologica"
+    }
+   ]
+  },
+  "choice": {
+   "de": [
+    {
+     "list": "seid-oder-seit",
+     "title": "seid oder seit",
+     "page": "https://dyslexiasteps.com/de/seid-oder-seit"
+    },
+    {
+     "list": "das-oder-dass",
+     "title": "das oder dass",
+     "page": "https://dyslexiasteps.com/de/das-oder-dass"
+    },
+    {
+     "list": "tod-oder-tot",
+     "title": "Tod oder tot",
+     "page": "https://dyslexiasteps.com/de/tod-oder-tot"
+    },
+    {
+     "list": "wieder-oder-wider",
+     "title": "wieder oder wider",
+     "page": "https://dyslexiasteps.com/de/wieder-oder-wider"
+    }
+   ],
+   "es": [
+    {
+     "list": "vaya-o-valla",
+     "title": "Vaya o valla",
+     "page": "https://dyslexiasteps.com/es/vaya-o-valla"
+    },
+    {
+     "list": "haber-o-a-ver",
+     "title": "Haber o a ver",
+     "page": "https://dyslexiasteps.com/es/haber-o-a-ver"
+    },
+    {
+     "list": "echo-o-hecho",
+     "title": "Echo o hecho",
+     "page": "https://dyslexiasteps.com/es/echo-o-hecho"
+    },
+    {
+     "list": "hay-ahi-ay",
+     "title": "Hay, ahí y ay",
+     "page": "https://dyslexiasteps.com/es/hay-ahi-ay"
+    },
+    {
+     "list": "porque-por-que",
+     "title": "Porque, por qué, porqué",
+     "page": "https://dyslexiasteps.com/es/porque-por-que"
+    }
+   ],
+   "fr": [
+    {
+     "list": "a-ou-a",
+     "title": "a ou à",
+     "page": "https://dyslexiasteps.com/fr/a-ou-a"
+    },
+    {
+     "list": "et-ou-est",
+     "title": "et ou est",
+     "page": "https://dyslexiasteps.com/fr/et-ou-est"
+    },
+    {
+     "list": "ces-ou-ses",
+     "title": "ces ou ses",
+     "page": "https://dyslexiasteps.com/fr/ces-ou-ses"
+    },
+    {
+     "list": "ce-ou-se",
+     "title": "ce ou se",
+     "page": "https://dyslexiasteps.com/fr/ce-ou-se"
+    },
+    {
+     "list": "leur-ou-leurs",
+     "title": "leur ou leurs",
+     "page": "https://dyslexiasteps.com/fr/leur-ou-leurs"
+    },
+    {
+     "list": "son-ou-sont",
+     "title": "son ou sont",
+     "page": "https://dyslexiasteps.com/fr/son-ou-sont"
+    },
+    {
+     "list": "on-ou-ont",
+     "title": "on ou ont",
+     "page": "https://dyslexiasteps.com/fr/on-ou-ont"
+    }
+   ],
+   "nl": [
+    {
+     "list": "ei-of-ij",
+     "title": "Ei of ij",
+     "page": "https://dyslexiasteps.com/nl/ei-of-ij"
+    },
+    {
+     "list": "au-of-ou",
+     "title": "Au of ou",
+     "page": "https://dyslexiasteps.com/nl/au-of-ou"
+    }
+   ],
+   "pt-br": [
+    {
+     "list": "mal-ou-mau",
+     "title": "Mal ou mau",
+     "page": "https://dyslexiasteps.com/pt-br/mal-ou-mau"
+    },
+    {
+     "list": "concerto-ou-conserto",
+     "title": "Concerto ou conserto",
+     "page": "https://dyslexiasteps.com/pt-br/concerto-ou-conserto"
+    },
+    {
+     "list": "onde-ou-aonde",
+     "title": "Onde ou aonde",
+     "page": "https://dyslexiasteps.com/pt-br/onde-ou-aonde"
+    },
+    {
+     "list": "mas-ou-mais",
+     "title": "Mas ou mais",
+     "page": "https://dyslexiasteps.com/pt-br/mas-ou-mais"
+    },
+    {
+     "list": "ha-ou-a",
+     "title": "Há ou a",
+     "page": "https://dyslexiasteps.com/pt-br/ha-ou-a"
+    },
+    {
+     "list": "traz-ou-tras",
+     "title": "Traz ou trás",
+     "page": "https://dyslexiasteps.com/pt-br/traz-ou-tras"
+    },
+    {
+     "list": "por-que-porque",
+     "title": "Por que ou porque",
+     "page": "https://dyslexiasteps.com/pt-br/por-que-porque"
+    }
+   ]
+  },
+  "dictation": {
+   "de": [
+    {
+     "list": "diktat-klasse-1",
+     "title": "Diktat Klasse 1",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-1"
+    },
+    {
+     "list": "diktat-klasse-2",
+     "title": "Diktat Klasse 2",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-2"
+    },
+    {
+     "list": "diktat-klasse-3",
+     "title": "Diktat Klasse 3",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-3"
+    },
+    {
+     "list": "diktat-klasse-4",
+     "title": "Diktat Klasse 4",
+     "page": "https://dyslexiasteps.com/de/diktat-klasse-4"
+    },
+    {
+     "list": "laufdiktat",
+     "title": "Laufdiktat",
+     "page": "https://dyslexiasteps.com/de/laufdiktat"
+    }
+   ],
+   "es": [
+    {
+     "list": "dictado-de-palabras",
+     "title": "Dictado de palabras",
+     "page": "https://dyslexiasteps.com/es/dictado-de-palabras"
+    },
+    {
+     "list": "dictado-de-oraciones",
+     "title": "Dictado de oraciones",
+     "page": "https://dyslexiasteps.com/es/dictado-de-oraciones"
+    },
+    {
+     "list": "dictado-primer-grado",
+     "title": "Dictado 1.º",
+     "page": "https://dyslexiasteps.com/es/dictado-primer-grado"
+    },
+    {
+     "list": "dictado-segundo-grado",
+     "title": "Dictado 2.º",
+     "page": "https://dyslexiasteps.com/es/dictado-segundo-grado"
+    },
+    {
+     "list": "dictado-tercer-grado",
+     "title": "Dictado 3.º",
+     "page": "https://dyslexiasteps.com/es/dictado-tercer-grado"
+    }
+   ],
+   "fr": [
+    {
+     "list": "dictee-cp",
+     "title": "Dictée CP",
+     "page": "https://dyslexiasteps.com/fr/dictee-cp"
+    },
+    {
+     "list": "dictee-ce1",
+     "title": "Dictée CE1",
+     "page": "https://dyslexiasteps.com/fr/dictee-ce1"
+    },
+    {
+     "list": "dictee-ce2",
+     "title": "Dictée CE2",
+     "page": "https://dyslexiasteps.com/fr/dictee-ce2"
+    },
+    {
+     "list": "dictee-cm1",
+     "title": "Dictée CM1",
+     "page": "https://dyslexiasteps.com/fr/dictee-cm1"
+    },
+    {
+     "list": "dictee-cm2",
+     "title": "Dictée CM2",
+     "page": "https://dyslexiasteps.com/fr/dictee-cm2"
+    },
+    {
+     "list": "dictee-de-mots",
+     "title": "Dictée de mots",
+     "page": "https://dyslexiasteps.com/fr/dictee-de-mots"
+    }
+   ],
+   "nl": [
+    {
+     "list": "dictee-groep-3",
+     "title": "Dictee groep 3",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-3"
+    },
+    {
+     "list": "dictee-groep-4",
+     "title": "Dictee groep 4",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-4"
+    },
+    {
+     "list": "dictee-groep-5",
+     "title": "Dictee groep 5",
+     "page": "https://dyslexiasteps.com/nl/dictee-groep-5"
+    }
+   ],
+   "pt-br": [
+    {
+     "list": "ditado-de-palavras",
+     "title": "Ditado de palavras",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-de-palavras"
+    },
+    {
+     "list": "ditado-de-frases",
+     "title": "Ditado de frases",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-de-frases"
+    },
+    {
+     "list": "ditado-1-ano",
+     "title": "Ditado 1º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-1-ano"
+    },
+    {
+     "list": "ditado-2-ano",
+     "title": "Ditado 2º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-2-ano"
+    },
+    {
+     "list": "ditado-3-ano",
+     "title": "Ditado 3º ano",
+     "page": "https://dyslexiasteps.com/pt-br/ditado-3-ano"
+    },
+    {
+     "list": "atividades-de-alfabetizacao-1-ano",
+     "title": "Atividades 1º ano",
+     "page": "https://dyslexiasteps.com/pt-br/atividades-de-alfabetizacao-1-ano"
+    },
+    {
+     "list": "atividades-de-alfabetizacao-2-ano",
+     "title": "Atividades 2º ano",
+     "page": "https://dyslexiasteps.com/pt-br/atividades-de-alfabetizacao-2-ano"
+    }
+   ]
+  }
+ }
+}
