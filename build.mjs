@@ -1,7 +1,7 @@
 // Docs sitesi üreticisi: sayfa blokları → HTML + sitemap + llms.txt + llms-full.txt.
 // Araç referansı elle yazılmıyor: yayınlanmış MCP paketi başlatılıp `tools/list` ve örnek
 // çağrıların GERÇEK yanıtları alınıyor; sayılar yayınlanmış veri paketinden okunuyor.
-import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
@@ -235,7 +235,8 @@ const nav = buildNav(clients);
 const flat = nav.flatMap(([, items]) => items.map(([path, label]) => ({ path, label }))).filter((x) => x.path !== "/llms.txt");
 rmSync("dist", { recursive: true, force: true });
 mkdirSync("dist/assets", { recursive: true });
-cpSync("public", "dist", { recursive: true });
+// public/: IndexNow anahtar dosyası gibi kökte durması gereken dosyalar (klasör yoksa atla: git boş klasörü tutmaz).
+if (existsSync("public")) cpSync("public", "dist", { recursive: true });
 writeFileSync("dist/assets/docs.css", CSS.trim());
 writeFileSync("dist/assets/docs.js", JS.trim());
 const outPath = (p) => (p === "/" ? "dist/index.html" : `dist${p}.html`);
