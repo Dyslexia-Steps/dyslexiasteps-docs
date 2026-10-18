@@ -232,7 +232,7 @@ pages.push({
     { t: "p", text: "The wrapper registers the web component on the client only, so it is safe in server-rendered apps." },
     { t: "h2", text: "Plain iframe" },
     { t: "p", text: "For pages that block scripts. Add the credit line yourself." },
-    code("HTML", `<iframe src="${MAIN}/embed/en/listen/short-a" title="Reading game by Dyslexia Steps" width="480" height="560" style="border:0;width:100%;max-width:480px" loading="lazy"></iframe>\n<p style="text-align:center;font:12px system-ui,sans-serif">Free reading games by <a href="${MAIN}/" target="_blank" rel="noopener">Dyslexia Steps</a></p>`),
+    code("HTML", `<iframe src="${MAIN}/embed/en/listen/short-a" title="Reading game by Dyslexia Steps" width="480" height="560" style="border:0;width:100%;max-width:480px" loading="lazy"></iframe>\n<p style="text-align:center;font:12px system-ui,sans-serif">Free reading games by <a href="${MAIN}/">Dyslexia Steps</a></p>`),
     { t: "h2", text: "Options" },
     { t: "table", head: ["Script", "Component / React", "Values"], rows: [
       ["`data-dys-game`", "`game`", "`listen`, `build`, `choice`, `dictation`"],
