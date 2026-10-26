@@ -181,7 +181,7 @@ pages.push({
   path: "/mcp/tools", label: "Tool reference", title: "MCP Tool Reference: Parameters and Real Responses",
   description: "Reference for all six tools of the Dyslexia Steps MCP server: parameters, types, example requests and real responses generated from the published server.",
   h1: "Tool reference",
-  lede: `Six read-only tools. This page is generated at build time from the published \`${S.MCP_NPM}@${mcpPkg.version}\` package: the parameters come from the server's own \`tools/list\` and the responses from calling each tool, so it cannot drift from the server.`,
+  lede: `Six read-only tools. This page is generated at build time from the published \`${S.MCP_NPM}\` package (version ${mcpPkg.version}): the parameters come from the server's own \`tools/list\` and the responses from calling each tool, so it cannot drift from the server.`,
   blocks: [{ t: "note", text: "Every tool is read-only, needs no authentication and assesses no child. Invalid input returns a result with `isError: true` and a message that points to the valid options." }, ...toolBlocks],
 });
 
