@@ -8,7 +8,7 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 
 import { renderMd } from "./lib/blocks.mjs";
-import { BASE, CSS, JS, MAIN, ORG, buildNav, page } from "./lib/layout.mjs";
+import { BASE, CSS, JS, MAIN, ORG, buildNav, mdPath, page } from "./lib/layout.mjs";
 
 const require = createRequire(import.meta.url);
 const S = JSON.parse(readFileSync(new URL("./content/shared.json", import.meta.url), "utf8"));
@@ -301,9 +301,17 @@ if (existsSync("public")) cpSync("public", "dist", { recursive: true });
 writeFileSync("dist/assets/docs.css", CSS.trim());
 writeFileSync("dist/assets/docs.js", JS.trim());
 const outPath = (p) => (p === "/" ? "dist/index.html" : `dist${p}.html`);
+// Her sayfanın markdown sürümü aynı bloklardan: /foo.md (ana sayfa /index.md). Sunucu
+// `Accept: text/markdown` isteğine de bunu döner. Bağlantılar mutlak, böylece dosya tek başına okunabilir.
+const pageMd = (p) => [
+  `# ${p.h1}`, "",
+  `> Documentation index: ${BASE}/llms.txt · HTML version: ${BASE}${p.path} · Updated ${UPDATED}`, "",
+  renderMd([{ t: "p", text: p.lede }, ...p.blocks], BASE), "",
+].join("\n");
 for (const p of pages) {
   mkdirSync(dirname(outPath(p.path)), { recursive: true });
   writeFileSync(outPath(p.path), page({ p, nav, flat, updated: UPDATED }));
+  writeFileSync(`dist${mdPath(p.path)}`, pageMd(p));
 }
 writeFileSync("dist/404.html", `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | Dyslexia Steps developer docs</title><meta name="robots" content="noindex"><link rel="stylesheet" href="/assets/docs.css"></head><body><main style="max-width:640px;margin:15vh auto;padding:0 20px"><h1>Page not found</h1><p>That page is not in the docs. Start from the <a href="/">overview</a> or the <a href="/quickstart">quickstart</a>.</p></main></body></html>`);
 writeFileSync("dist/robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\n`);
@@ -314,13 +322,13 @@ writeFileSync("dist/llms.txt", [
   `> Documentation for the free, open-source developer tools of Dyslexia Steps (dyslexiasteps.com): phonics and sight word lists placed from Pre-K to Grade 3 with the source of each placement, as CSV and JSON (CC BY 4.0) and as a read-only MCP server for AI assistants. A grade is a typical guide, not a rule, and a placement is not an assessment of any child.`, "",
   `Hosted MCP server: ${URL_MCP}`, `Source: ${ORG}`, "",
   "## Docs", "",
-  ...pages.map((p) => `- [${p.h1}](${BASE}${p.path}): ${p.description}`), "",
+  ...pages.map((p) => `- [${p.h1}](${BASE}${mdPath(p.path)}): ${p.description}`), "",
   "## Optional", "",
   `- [Word lists by grade](${MAIN}/word-lists-by-grade): the lists as printable pages, with sources.`,
   `- [Full documentation as one file](${BASE}/llms-full.txt)`, "",
 ].join("\n"));
 writeFileSync("dist/llms-full.txt", [
   "# Dyslexia Steps developer docs (full text)", "", `Source: ${BASE} · Updated ${UPDATED}`, "",
-  ...pages.map((p) => `# ${p.h1}\n\nURL: ${BASE}${p.path}\n\n${renderMd([{ t: "p", text: p.lede }, ...p.blocks], BASE)}\n`),
+  ...pages.map((p) => `# ${p.h1}\n\nURL: ${BASE}${p.path} (markdown: ${BASE}${mdPath(p.path)})\n\n${renderMd([{ t: "p", text: p.lede }, ...p.blocks], BASE)}\n`),
 ].join("\n\n"));
 console.log(`built ${pages.length} pages · tools documented: ${tools.length} · mcp ${mcpPkg.version} · data ${dataPkg.version} · ${en.length} en lists · ${kLists} kindergarten`);
